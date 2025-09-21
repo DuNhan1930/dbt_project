@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: glamira_data
+    database: symmetric-fin-469415-q9     # GCP project
+    schema: glamira_data_2025             # BigQuery dataset
+
+    tables:
+      - name: summary
+        description: "collect = 'checkout_success'"
+
+      - name: location
+        description: "Information of users' location"
+
+      - name: product_name
+        description: "Products' information"

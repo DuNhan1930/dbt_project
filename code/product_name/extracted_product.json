@@ -1,0 +1,3847 @@
+{
+    "product_id": 99879,
+    "name": "Kvinnans hänge Lakisha",
+    "sku": "OEPD-017",
+    "attribute_set_id": 55,
+    "attribute_set": "diamonds",
+    "type_id": "simple",
+    "price": "4677.000000",
+    "min_price": "4677.000000",
+    "max_price": "41060.000000",
+    "min_price_format": "4677,00 Kr",
+    "max_price_format": "41060,00 Kr",
+    "gold_weight": "1.17",
+    "none_metal_weight": 0,
+    "fixed_silver_weight": 0,
+    "material_design": null,
+    "qty": 1,
+    "collection": "initials",
+    "collection_id": "4574",
+    "product_type": "pendant",
+    "product_type_value": "4",
+    "category": "601",
+    "category_name": "Halsband",
+    "store_code": "glse",
+    "platinum_palladium_info_in_alloy": 0,
+    "bracelet_without_chain": 0,
+    "show_popup_quantity_eternity": 0,
+    "visible_contents": [
+        ""
+    ],
+    "gender": "women",
+    "configure_mode": 0,
+    "included_chain_weight": 0,
+    "quick_options": [
+        {
+            "value": "bestseller",
+            "label": "Mest Populär",
+            "request_values": [
+                {
+                    "option_id": "242162",
+                    "part_type": "stone1",
+                    "value": "2008670",
+                    "sku": "diamond-sapphire"
+                },
+                {
+                    "option_id": "242161",
+                    "part_type": "alloy",
+                    "value": "2008643",
+                    "sku": "red_white-585"
+                },
+                {
+                    "option_id": "242163",
+                    "part_type": "chain_type",
+                    "sku": "brillforzentina",
+                    "value": "2008682"
+                },
+                {
+                    "option_id": "242164",
+                    "part_type": "chain_colour",
+                    "sku": "red",
+                    "value": "2008687"
+                },
+                {
+                    "option_id": "242165",
+                    "part_type": "chain_size",
+                    "sku": null,
+                    "value": "2008688"
+                },
+                {
+                    "option_id": "242166",
+                    "part_type": "chain_alloy",
+                    "sku": "585",
+                    "value": "2008692"
+                }
+            ],
+            "skus": "242162-diamond-sapphire242161-red_white-585242163-brillforzentina242164-red242165-2008688242166-585"
+        },
+        {
+            "value": "highest_price",
+            "label": "Högsta Pris",
+            "request_values": [
+                {
+                    "option_id": "242162",
+                    "part_type": "stone1",
+                    "sku": "diamond-Brillant",
+                    "value": "2008660",
+                    "optionPrice": 4321,
+                    "quality_id": "6302"
+                },
+                {
+                    "option_id": "242161",
+                    "part_type": "alloy",
+                    "sku": "white-palladium",
+                    "value": "2008656",
+                    "optionPrice": 28415920
+                },
+                {
+                    "option_id": "242163",
+                    "part_type": "chain_type",
+                    "sku": "brillforzentina",
+                    "value": "2008682",
+                    "optionPrice": "0.00"
+                },
+                {
+                    "option_id": "242164",
+                    "part_type": "chain_colour",
+                    "sku": "white",
+                    "value": "2008685",
+                    "optionPrice": "0.00"
+                },
+                {
+                    "option_id": "242165",
+                    "part_type": "chain_size",
+                    "sku": null,
+                    "value": "2008688",
+                    "optionPrice": "0.00"
+                },
+                {
+                    "option_id": "242166",
+                    "part_type": "chain_alloy",
+                    "sku": "750",
+                    "value": "2008693",
+                    "optionPrice": "1662.00"
+                }
+            ],
+            "skus": "242162-diamond-Brillant_6302242161-white-palladium242163-brillforzentina242164-white242165-2008688242166-750"
+        },
+        {
+            "value": "lowest_price",
+            "label": "Lägsta Pris",
+            "request_values": [
+                {
+                    "option_id": "242162",
+                    "part_type": "stone1",
+                    "sku": "diamond-zirconia",
+                    "value": "2008659",
+                    "optionPrice": "0.00"
+                },
+                {
+                    "option_id": "242161",
+                    "part_type": "alloy",
+                    "sku": "white_yellow-375",
+                    "value": "2008629",
+                    "optionPrice": "0.00"
+                },
+                {
+                    "option_id": "242163",
+                    "part_type": "chain_type",
+                    "sku": "none",
+                    "value": 0,
+                    "optionPrice": 0
+                },
+                {
+                    "option_id": "242164",
+                    "part_type": "chain_colour",
+                    "sku": "none",
+                    "value": 0,
+                    "optionPrice": 0
+                },
+                {
+                    "option_id": "242165",
+                    "part_type": "chain_size",
+                    "sku": "none",
+                    "value": 0,
+                    "optionPrice": 0
+                },
+                {
+                    "option_id": "242166",
+                    "part_type": "chain_alloy",
+                    "sku": "none",
+                    "value": 0,
+                    "optionPrice": 0
+                }
+            ],
+            "skus": "242162-diamond-zirconia242161-white_yellow-375242163-none242164-none242165-none242166-none"
+        },
+        {
+            "group": "birth_stone",
+            "month": 4,
+            "value": "birth_stone_4",
+            "label": "april's födelsesten",
+            "request_values": [
+                {
+                    "option_id": "242162",
+                    "part_type": "stone1",
+                    "sku": "diamond-Brillant",
+                    "value": "2008660"
+                },
+                {
+                    "option_id": "242161",
+                    "part_type": "alloy",
+                    "value": "2008639",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "242162-diamond-Brillant"
+        },
+        {
+            "group": "birth_stone",
+            "month": 7,
+            "value": "birth_stone_7",
+            "label": "juli's födelsesten",
+            "request_values": [
+                {
+                    "option_id": "242162",
+                    "part_type": "stone1",
+                    "sku": "ruby",
+                    "value": "2008668"
+                },
+                {
+                    "option_id": "242161",
+                    "part_type": "alloy",
+                    "value": "2008639",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "242162-ruby"
+        },
+        {
+            "group": "birth_stone",
+            "month": 9,
+            "value": "birth_stone_9",
+            "label": "september's födelsesten",
+            "request_values": [
+                {
+                    "option_id": "242162",
+                    "part_type": "stone1",
+                    "sku": "sapphire",
+                    "value": "2008666"
+                },
+                {
+                    "option_id": "242161",
+                    "part_type": "alloy",
+                    "value": "2008639",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "242162-sapphire"
+        },
+        {
+            "group": "birth_stone",
+            "month": 10,
+            "value": "birth_stone_10",
+            "label": "oktober's födelsesten",
+            "request_values": [
+                {
+                    "option_id": "242162",
+                    "part_type": "stone1",
+                    "sku": "pink-tourmaline",
+                    "value": "2008678"
+                },
+                {
+                    "option_id": "242161",
+                    "part_type": "alloy",
+                    "value": "2008639",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "242162-pink-tourmaline"
+        },
+        {
+            "group": "birth_stone",
+            "month": 2,
+            "value": "birth_stone_2",
+            "label": "februari's födelsesten",
+            "request_values": [
+                {
+                    "option_id": "242162",
+                    "part_type": "stone1",
+                    "sku": "amethyst",
+                    "value": "2008661"
+                },
+                {
+                    "option_id": "242161",
+                    "part_type": "alloy",
+                    "value": "2008639",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "242162-amethyst"
+        },
+        {
+            "group": "birth_stone",
+            "month": 1,
+            "value": "birth_stone_1",
+            "label": "januari's födelsesten",
+            "request_values": [
+                {
+                    "option_id": "242162",
+                    "part_type": "stone1",
+                    "sku": "garnet",
+                    "value": "2008664"
+                },
+                {
+                    "option_id": "242161",
+                    "part_type": "alloy",
+                    "value": "2008639",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "242162-garnet"
+        },
+        {
+            "value": "diamond",
+            "label": "Diamant",
+            "request_values": [
+                {
+                    "option_id": "242162",
+                    "part_type": "stone1",
+                    "sku": "diamond-Brillant",
+                    "value": "2008660"
+                },
+                {
+                    "option_id": "242161",
+                    "part_type": "alloy",
+                    "value": "2008639",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "242162-diamond-Brillant"
+        },
+        {
+            "value": "lab_grown",
+            "label": "Laboratorieodlad",
+            "request_values": [
+                {
+                    "option_id": "242162",
+                    "part_type": "stone1",
+                    "sku": "lab-grown-diamond",
+                    "value": "6900068"
+                },
+                {
+                    "option_id": "242161",
+                    "part_type": "alloy",
+                    "value": "2008639",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "242162-lab-grown-diamond"
+        },
+        {
+            "value": "labdiamond",
+            "label": "Moissanit",
+            "request_values": [
+                {
+                    "option_id": "242162",
+                    "part_type": "stone1",
+                    "sku": "labdiamond",
+                    "value": "7072322"
+                },
+                {
+                    "option_id": "242161",
+                    "part_type": "alloy",
+                    "value": "2008639",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "242162-labdiamond"
+        }
+    ],
+    "associate": [],
+    "bestseller": {
+        "title": "Bästsäljande varianter av Kvinnans hänge Lakisha",
+        "general_title": "Bästsäljare modeller",
+        "request_url": "https://www.glamira.se/rest/V1/products/:entityId/bestseller/variantList"
+    },
+    "designProvider": [],
+    "product_price": {
+        "productId": 99879,
+        "use_gold_price": true,
+        "priceFormat": {
+            "pattern": "%sKr",
+            "precision": 2,
+            "requiredPrecision": 2,
+            "decimalSymbol": ",",
+            "groupSymbol": " ",
+            "groupLength": 3,
+            "integerRequired": false
+        },
+        "currencyCode": "SEK",
+        "price": "4677.000000",
+        "prices": {
+            "baseOldPrice": {
+                "amount": 3741.599999,
+                "adjustments": []
+            },
+            "oldPrice": {
+                "amount": 4677,
+                "adjustments": []
+            },
+            "basePrice": {
+                "amount": 3741.599999,
+                "adjustments": []
+            },
+            "finalPrice": {
+                "amount": 4677,
+                "adjustments": []
+            }
+        },
+        "tierPrices": [],
+        "includeTax": true,
+        "showIncludeTax": true,
+        "showBothPrices": false,
+        "defaultTax": 25,
+        "currentTax": 25,
+        "priceDisplayInclExclTaxes": {
+            "excl": "exkl. MOMS",
+            "incl": "inkl MOMS"
+        },
+        "round_precision": 2,
+        "retail_info": "Detta pris är upp till <span>55%</span> lägre än de traditionella smycken priser.",
+        "weeeAmount": 0,
+        "weeeShowInclDesc": false,
+        "weeeShowExclDesc": false,
+        "weeAttributes": []
+    },
+    "discount_custom_options": [],
+    "options": [
+        {
+            "option_id": "242162",
+            "product_id": "99879",
+            "type": "stone",
+            "is_require": 1,
+            "sku": null,
+            "max_characters": null,
+            "file_extension": null,
+            "image_size_x": null,
+            "image_size_y": null,
+            "sort_order": "10",
+            "max_characters_wrong": null,
+            "part_type": "stone1",
+            "engraving_type": null,
+            "engraving_position": null,
+            "custom_size": "0",
+            "use_stone": null,
+            "default_value": null,
+            "default_title": "Stone/Diamonds",
+            "store_title": null,
+            "title": "Sten",
+            "default_price": null,
+            "default_price_type": null,
+            "store_price": null,
+            "store_price_type": null,
+            "price": null,
+            "price_type": null,
+            "store_id": 19,
+            "stones": [
+                {
+                    "id": "67707",
+                    "product_id": "99879",
+                    "option_id": "0",
+                    "part_type": "stone1",
+                    "carat": "0.0060",
+                    "qty": "14",
+                    "diameter": "1.1 mm",
+                    "shape": "1",
+                    "clarity": null
+                }
+            ],
+            "extension_attributes": {},
+            "detail_title": "Sten 1",
+            "group": "stone",
+            "values": [
+                {
+                    "option_type_id": "2008660",
+                    "option_id": "242162",
+                    "sku": "diamond-Brillant",
+                    "default_title": "Diamond",
+                    "store_title": "Diamant",
+                    "title": "Diamant",
+                    "price": "1199.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": "AAA",
+                    "configure_quality": "AAA",
+                    "stone_group": "diamond",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "diamond-Brillant",
+                                "label": "Diamant",
+                                "default_label": "Diamond",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "VS",
+                                "label": "VS",
+                                "default_label": "VS",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "4",
+                                "label": "Utmärkt",
+                                "default_label": "Excellent",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "H",
+                                "label": "H",
+                                "default_label": "H",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ],
+                    "stone_quality": [
+                        {
+                            "id": "6320",
+                            "price": 1199,
+                            "label": "VS",
+                            "stone_type": {
+                                "value": "diamond-Brillant",
+                                "label": "Diamant",
+                                "default_label": "Diamond",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "VS",
+                                "label": "VS",
+                                "default_label": "VS",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "4",
+                                "label": "Utmärkt",
+                                "default_label": "Excellent",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "H",
+                                "label": "H",
+                                "default_label": "H",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        },
+                        {
+                            "id": "6302",
+                            "price": 4321,
+                            "label": "VVS",
+                            "stone_type": {
+                                "value": "diamond-Brillant",
+                                "label": "Diamant",
+                                "default_label": "Diamond",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAAA",
+                                "label": "AAAA",
+                                "default_label": "AAAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "VVS",
+                                "label": "VVS",
+                                "default_label": "VVS",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "4",
+                                "label": "Utmärkt",
+                                "default_label": "Excellent",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "H",
+                                "label": "H",
+                                "default_label": "H",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "2008669",
+                    "option_id": "242162",
+                    "sku": "blackdiamond",
+                    "default_title": "Black Diamond",
+                    "store_title": "Svart Diamant",
+                    "title": "Svart Diamant",
+                    "price": "593.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": null,
+                    "configure_quality": "AAA",
+                    "stone_group": "diamond",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "blackdiamond",
+                                "label": "Svart Diamant",
+                                "default_label": "Black Diamond",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "Black",
+                                "label": "Svart",
+                                "default_label": "Black",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "2008668",
+                    "option_id": "242162",
+                    "sku": "ruby",
+                    "default_title": "Ruby",
+                    "store_title": "Rubin",
+                    "title": "Rubin",
+                    "price": "664.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": null,
+                    "configure_quality": "AAA",
+                    "stone_group": "precious_stone",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "ruby",
+                                "label": "Rubin",
+                                "default_label": "Ruby",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "Red",
+                                "label": "Röd",
+                                "default_label": "Red",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": "heated",
+                                "label": "Uppvärmd",
+                                "default_label": "Heated",
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "2008666",
+                    "option_id": "242162",
+                    "sku": "sapphire",
+                    "default_title": "Saphire",
+                    "store_title": "Safir",
+                    "title": "Safir",
+                    "price": "498.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": null,
+                    "configure_quality": "AAA",
+                    "stone_group": "precious_stone",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "sapphire",
+                                "label": "Safir",
+                                "default_label": "Saphire",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "Dark Blue",
+                                "label": "Mörkblå",
+                                "default_label": "Dark Blue",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": "heated",
+                                "label": "Uppvärmd",
+                                "default_label": "Heated",
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "2008670",
+                    "option_id": "242162",
+                    "sku": "diamond-sapphire",
+                    "default_title": "White Sapphire",
+                    "store_title": "Vit Safir",
+                    "title": "Vit Safir",
+                    "price": "379.00",
+                    "price_type": "fixed",
+                    "is_default": true,
+                    "default_quality": null,
+                    "configure_quality": "AAA",
+                    "stone_group": "precious_stone",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "diamond-sapphire",
+                                "label": "Vit Safir",
+                                "default_label": "White Sapphire",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "White",
+                                "label": "Vit",
+                                "default_label": "White",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "6900068",
+                    "option_id": "242162",
+                    "sku": "lab-grown-diamond",
+                    "default_title": "Lab Grown Diamond",
+                    "store_title": "Labb Odlade Diamant",
+                    "title": "Labb Odlade Diamant",
+                    "price": "474.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": "AAA",
+                    "configure_quality": "AAA",
+                    "stone_group": "diamond",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "lab-grown-diamond",
+                                "label": "Labb Odlade Diamant",
+                                "default_label": "Lab Grown Diamond",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "VS",
+                                "label": "VS",
+                                "default_label": "VS",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "H",
+                                "label": "H",
+                                "default_label": "H",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ],
+                    "stone_quality": [
+                        {
+                            "id": "30470",
+                            "price": 474,
+                            "label": "VS",
+                            "stone_type": {
+                                "value": "lab-grown-diamond",
+                                "label": "Labb Odlade Diamant",
+                                "default_label": "Lab Grown Diamond",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "VS",
+                                "label": "VS",
+                                "default_label": "VS",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "H",
+                                "label": "H",
+                                "default_label": "H",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "2008680",
+                    "option_id": "242162",
+                    "sku": "yellow-sapphire",
+                    "default_title": "Yellow Sapphire",
+                    "store_title": "Gul Safir",
+                    "title": "Gul Safir",
+                    "price": "498.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": null,
+                    "configure_quality": "AAA",
+                    "stone_group": "precious_stone",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "yellow-sapphire",
+                                "label": "Gul Safir",
+                                "default_label": "Yellow Sapphire",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "Yellow",
+                                "label": "Gul ",
+                                "default_label": "Yellow",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "2008678",
+                    "option_id": "242162",
+                    "sku": "pink-tourmaline",
+                    "default_title": "Pink Tourmaline",
+                    "store_title": "Rosa Turmalin",
+                    "title": "Rosa Turmalin",
+                    "price": "237.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": null,
+                    "configure_quality": "AAA",
+                    "stone_group": "semi_precious",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "pink-tourmaline",
+                                "label": "Rosa Turmalin",
+                                "default_label": "Pink Tourmaline",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "Pink",
+                                "label": "Rosa",
+                                "default_label": "Pink",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "2008661",
+                    "option_id": "242162",
+                    "sku": "amethyst",
+                    "default_title": "Amethyst",
+                    "store_title": "Ametist",
+                    "title": "Ametist",
+                    "price": "166.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": null,
+                    "configure_quality": "AAA",
+                    "stone_group": "semi_precious",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "amethyst",
+                                "label": "Ametist",
+                                "default_label": "Amethyst",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "Violet",
+                                "label": "Violett",
+                                "default_label": "Violet",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "2008664",
+                    "option_id": "242162",
+                    "sku": "garnet",
+                    "default_title": "Garnet",
+                    "store_title": "Granat",
+                    "title": "Granat",
+                    "price": "154.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": null,
+                    "configure_quality": "AAA",
+                    "stone_group": "semi_precious",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "garnet",
+                                "label": "Granat",
+                                "default_label": "Garnet",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "Red",
+                                "label": "Röd",
+                                "default_label": "Red",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "3316976",
+                    "option_id": "242162",
+                    "sku": "black-onyx",
+                    "default_title": "Black Onyx",
+                    "store_title": "Svart Onyx",
+                    "title": "Svart Onyx",
+                    "price": "166.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": null,
+                    "configure_quality": "AAA",
+                    "stone_group": "semi_precious",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "black-onyx",
+                                "label": "Svart Onyx",
+                                "default_label": "Black Onyx",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "Black",
+                                "label": "Svart",
+                                "default_label": "Black",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "7072322",
+                    "option_id": "242162",
+                    "sku": "labdiamond",
+                    "default_title": "Moissanite",
+                    "store_title": "Moissanit",
+                    "title": "Moissanit",
+                    "price": "142.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": null,
+                    "configure_quality": "AAAA",
+                    "stone_group": "moissanite",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "labdiamond",
+                                "label": "Moissanit",
+                                "default_label": "Moissanite",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAAA",
+                                "label": "AAAA",
+                                "default_label": "AAAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "VS",
+                                "label": "VS",
+                                "default_label": "VS",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "4",
+                                "label": "Utmärkt",
+                                "default_label": "Excellent",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "E/F",
+                                "label": "E/F",
+                                "default_label": "E/F",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "2008659",
+                    "option_id": "242162",
+                    "sku": "diamond-zirconia",
+                    "default_title": "Zirkonia",
+                    "store_title": "Zirconia",
+                    "title": "Zirconia",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": "AAAAA",
+                    "configure_quality": "AAAAA",
+                    "stone_group": "zirconia",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "diamond-zirconia",
+                                "label": "Zirkonia",
+                                "default_label": "Zirconia",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAAAA",
+                                "label": "AAAAA",
+                                "default_label": "AAAAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "AAAAA",
+                                "label": "AAAAA",
+                                "default_label": "AAAAA",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "White",
+                                "label": "Vit",
+                                "default_label": "White",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "2008671",
+                    "option_id": "242162",
+                    "sku": "emerald-zirconia",
+                    "default_title": "Green Zirconia",
+                    "store_title": "Grön Zirkonia",
+                    "title": "Grön Zirkonia",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": "AAAAA",
+                    "configure_quality": "AAAAA",
+                    "stone_group": "zirconia",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "emerald-zirconia",
+                                "label": "Grön Zirkonia",
+                                "default_label": "Green Zirconia",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAAAA",
+                                "label": "AAAAA",
+                                "default_label": "AAAAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "AAAAA",
+                                "label": "AAAAA",
+                                "default_label": "AAAAA",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "Green",
+                                "label": "Grön",
+                                "default_label": "Green",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "2008672",
+                    "option_id": "242162",
+                    "sku": "sapphire-zirconia",
+                    "default_title": "Dark Blue Zirconia",
+                    "store_title": "Mörkblå Zirkonia",
+                    "title": "Mörkblå Zirkonia",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": "AAAAA",
+                    "configure_quality": "AAAAA",
+                    "stone_group": "zirconia",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "sapphire-zirconia",
+                                "label": "Mörkblå Zirkonia",
+                                "default_label": "Dark Blue Zirconia",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAAAA",
+                                "label": "AAAAA",
+                                "default_label": "AAAAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "AAAAA",
+                                "label": "AAAAA",
+                                "default_label": "AAAAA",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "Dark Blue",
+                                "label": "Mörkblå",
+                                "default_label": "Dark Blue",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "2008673",
+                    "option_id": "242162",
+                    "sku": "ruby-zirconia",
+                    "default_title": "Red Zirconia",
+                    "store_title": "Röd Zirkonia",
+                    "title": "Röd Zirkonia",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": "AAAAA",
+                    "configure_quality": "AAAAA",
+                    "stone_group": "zirconia",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "ruby-zirconia",
+                                "label": "Röd Zirkonia",
+                                "default_label": "Red Zirconia",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAAAA",
+                                "label": "AAAAA",
+                                "default_label": "AAAAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "AAAAA",
+                                "label": "AAAAA",
+                                "default_label": "AAAAA",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "Red",
+                                "label": "Röd",
+                                "default_label": "Red",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "option_type_id": "3493502",
+                    "option_id": "242162",
+                    "sku": "black-sapphire",
+                    "default_title": "Black Sapphire",
+                    "store_title": "Svart Safir",
+                    "title": "Svart Safir",
+                    "price": "368.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "default_quality": null,
+                    "configure_quality": "AAA",
+                    "stone_group": "precious_stone",
+                    "data_stones": [
+                        {
+                            "stone_type": {
+                                "value": "black-sapphire",
+                                "label": "Svart Safir",
+                                "default_label": "Black Sapphire",
+                                "option_title": "Stentyp",
+                                "default_option_title": "Stone Type"
+                            },
+                            "stone_name": {
+                                "value": null,
+                                "label": null,
+                                "default_label": null,
+                                "option_title": "Namn",
+                                "default_option_title": "Name"
+                            },
+                            "certificate": {
+                                "value": "1",
+                                "label": "GL Certifierad",
+                                "default_label": "GL Certified",
+                                "option_title": "Certifiering",
+                                "default_option_title": "Certification"
+                            },
+                            "carat": {
+                                "value": 0.006,
+                                "label": 0.006,
+                                "default_label": 0.006,
+                                "option_title": "Carat",
+                                "default_option_title": "Carat"
+                            },
+                            "total_carat": {
+                                "value": 0.084,
+                                "label": 0.084,
+                                "default_label": 0.084,
+                                "option_title": "Total Sten Karat",
+                                "default_option_title": "Total Stone Carat"
+                            },
+                            "diameter": {
+                                "value": "1.1 mm",
+                                "label": "1.1 mm",
+                                "default_label": "1.1 mm",
+                                "option_title": "Diameter",
+                                "default_option_title": "Diameter"
+                            },
+                            "shape": {
+                                "value": "1",
+                                "label": "Rund",
+                                "default_label": "Round",
+                                "option_title": "Form",
+                                "default_option_title": "Shape"
+                            },
+                            "quality": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Kvalite",
+                                "default_option_title": "Quality"
+                            },
+                            "clarity": {
+                                "value": "AAA",
+                                "label": "AAA",
+                                "default_label": "AAA",
+                                "option_title": "Klarhet",
+                                "default_option_title": "Stone Clarity"
+                            },
+                            "cut": {
+                                "value": "3",
+                                "label": "Mycket God ",
+                                "default_label": "Very Good",
+                                "option_title": "Slipning",
+                                "default_option_title": "Cut"
+                            },
+                            "colour": {
+                                "value": "Black",
+                                "label": "Svart",
+                                "default_label": "Black",
+                                "option_title": "Färg",
+                                "default_option_title": "Colour"
+                            },
+                            "origin": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "option_title": "Värmebehandling",
+                                "default_option_title": "Heat Treatment"
+                            },
+                            "origin_colour": {
+                                "value": null,
+                                "label": "",
+                                "default_label": null,
+                                "default_option_title": "Color Origin",
+                                "option_title": "Färg Ursprung"
+                            },
+                            "qty": {
+                                "value": 14,
+                                "label": 14,
+                                "default_label": 14,
+                                "option_title": "Antal stenar",
+                                "default_option_title": "Stone Quantity"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "option_id": "242161",
+            "product_id": "99879",
+            "type": "alloy",
+            "is_require": 1,
+            "sku": null,
+            "max_characters": null,
+            "file_extension": null,
+            "image_size_x": null,
+            "image_size_y": null,
+            "sort_order": "20",
+            "max_characters_wrong": null,
+            "part_type": "alloy",
+            "engraving_type": null,
+            "engraving_position": null,
+            "custom_size": "0",
+            "use_stone": null,
+            "default_value": null,
+            "default_title": "Alloy/Colour",
+            "store_title": null,
+            "title": "Metall / LEGERING",
+            "default_price": null,
+            "default_price_type": null,
+            "store_price": null,
+            "store_price_type": null,
+            "price": null,
+            "price_type": null,
+            "store_id": 19,
+            "extension_attributes": {},
+            "detail_title": "Metall / LEGERING",
+            "group": "alloy",
+            "values": [
+                {
+                    "option_type_id": "2008629",
+                    "option_id": "242161",
+                    "sku": "white_yellow-375",
+                    "default_title": "Weiß-Gelbgold 375",
+                    "store_title": "9k Vit & Gult Guld",
+                    "title": "9k Vit & Gult Guld",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "colour": "white_yellow",
+                    "metal": "375",
+                    "colour_label": "Vit/Gult",
+                    "metal_label": "9k Guld <span class='seperate-line'>-</span> <span>375</span>"
+                },
+                {
+                    "option_type_id": "2008630",
+                    "option_id": "242161",
+                    "sku": "yellow_white-375",
+                    "default_title": "Gelb-Weißgold 375",
+                    "store_title": "9k Gult & Vit Guld",
+                    "title": "9k Gult & Vit Guld",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "colour": "yellow_white",
+                    "metal": "375",
+                    "colour_label": "Gult Vit",
+                    "metal_label": "9k Guld <span class='seperate-line'>-</span> <span>375</span>"
+                },
+                {
+                    "option_type_id": "2008631",
+                    "option_id": "242161",
+                    "sku": "white-375",
+                    "default_title": "Weißgold 375",
+                    "store_title": "9k Vitguld",
+                    "title": "9k Vitguld",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "colour": "white",
+                    "metal": "375",
+                    "colour_label": "Vit",
+                    "metal_label": "9k Guld <span class='seperate-line'>-</span> <span>375</span>"
+                },
+                {
+                    "option_type_id": "2008632",
+                    "option_id": "242161",
+                    "sku": "yellow-375",
+                    "default_title": "Gelbgold 375",
+                    "store_title": "9k Gult Guld",
+                    "title": "9k Gult Guld",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "colour": "yellow",
+                    "metal": "375",
+                    "colour_label": "Gul ",
+                    "metal_label": "9k Guld <span class='seperate-line'>-</span> <span>375</span>"
+                },
+                {
+                    "option_type_id": "2008633",
+                    "option_id": "242161",
+                    "sku": "red-375",
+                    "default_title": "Rotgold 375",
+                    "store_title": "9k Rött Guld",
+                    "title": "9k Rött Guld",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "colour": "red",
+                    "metal": "375",
+                    "colour_label": "Ros",
+                    "metal_label": "9k Guld <span class='seperate-line'>-</span> <span>375</span>"
+                },
+                {
+                    "option_type_id": "2008634",
+                    "option_id": "242161",
+                    "sku": "white_red-375",
+                    "default_title": "Weiß-Rotgold 375",
+                    "store_title": "9k Vit & Rött Guld",
+                    "title": "9k Vit & Rött Guld",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "colour": "white_red",
+                    "metal": "375",
+                    "colour_label": "Vit/Ros",
+                    "metal_label": "9k Guld <span class='seperate-line'>-</span> <span>375</span>"
+                },
+                {
+                    "option_type_id": "2008635",
+                    "option_id": "242161",
+                    "sku": "red_white-375",
+                    "default_title": "Rot-Weißgold 375",
+                    "store_title": "9k Rött & Vit Guld",
+                    "title": "9k Rött & Vit Guld",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false,
+                    "colour": "red_white",
+                    "metal": "375",
+                    "colour_label": "Ros Vit",
+                    "metal_label": "9k Guld <span class='seperate-line'>-</span> <span>375</span>"
+                },
+                {
+                    "option_type_id": "2008637",
+                    "option_id": "242161",
+                    "sku": "white_yellow-585",
+                    "default_title": "Weiß-Gelbgold 585",
+                    "store_title": "14k Vit & Gult Guld",
+                    "title": "14k Vit & Gult Guld",
+                    "price": "31.00",
+                    "price_type": "percent",
+                    "is_default": false,
+                    "colour": "white_yellow",
+                    "metal": "585",
+                    "colour_label": "Vit/Gult",
+                    "metal_label": "14k Guld <span class='seperate-line'>-</span> <span>585</span>"
+                },
+                {
+                    "option_type_id": "2008638",
+                    "option_id": "242161",
+                    "sku": "yellow_white-585",
+                    "default_title": "Gelb-Weißgold 585",
+                    "store_title": "14k Gult & Vit Guld",
+                    "title": "14k Gult & Vit Guld",
+                    "price": "31.00",
+                    "price_type": "percent",
+                    "is_default": false,
+                    "colour": "yellow_white",
+                    "metal": "585",
+                    "colour_label": "Gult Vit",
+                    "metal_label": "14k Guld <span class='seperate-line'>-</span> <span>585</span>"
+                },
+                {
+                    "option_type_id": "2008639",
+                    "option_id": "242161",
+                    "sku": "white-585",
+                    "default_title": "Weißgold 585",
+                    "store_title": "14k Vitguld",
+                    "title": "14k Vitguld",
+                    "price": "31.00",
+                    "price_type": "percent",
+                    "is_default": false,
+                    "colour": "white",
+                    "metal": "585",
+                    "colour_label": "Vit",
+                    "metal_label": "14k Guld <span class='seperate-line'>-</span> <span>585</span>"
+                },
+                {
+                    "option_type_id": "2008640",
+                    "option_id": "242161",
+                    "sku": "yellow-585",
+                    "default_title": "Gelbgold 585",
+                    "store_title": "14k Gult Guld",
+                    "title": "14k Gult Guld",
+                    "price": "31.00",
+                    "price_type": "percent",
+                    "is_default": false,
+                    "colour": "yellow",
+                    "metal": "585",
+                    "colour_label": "Gul ",
+                    "metal_label": "14k Guld <span class='seperate-line'>-</span> <span>585</span>"
+                },
+                {
+                    "option_type_id": "2008641",
+                    "option_id": "242161",
+                    "sku": "red-585",
+                    "default_title": "Rotgold 585",
+                    "store_title": "14k Rött Guld",
+                    "title": "14k Rött Guld",
+                    "price": "31.00",
+                    "price_type": "percent",
+                    "is_default": false,
+                    "colour": "red",
+                    "metal": "585",
+                    "colour_label": "Ros",
+                    "metal_label": "14k Guld <span class='seperate-line'>-</span> <span>585</span>"
+                },
+                {
+                    "option_type_id": "2008642",
+                    "option_id": "242161",
+                    "sku": "white_red-585",
+                    "default_title": "Weiß-Rotgold 585",
+                    "store_title": "14k Vit & Rött Guld",
+                    "title": "14k Vit & Rött Guld",
+                    "price": "31.00",
+                    "price_type": "percent",
+                    "is_default": true,
+                    "colour": "white_red",
+                    "metal": "585",
+                    "colour_label": "Vit/Ros",
+                    "metal_label": "14k Guld <span class='seperate-line'>-</span> <span>585</span>"
+                },
+                {
+                    "option_type_id": "2008643",
+                    "option_id": "242161",
+                    "sku": "red_white-585",
+                    "default_title": "Rot-Weißgold 585",
+                    "store_title": "14k Rött & Vit Guld",
+                    "title": "14k Rött & Vit Guld",
+                    "price": "31.00",
+                    "price_type": "percent",
+                    "is_default": false,
+                    "colour": "red_white",
+                    "metal": "585",
+                    "colour_label": "Ros Vit",
+                    "metal_label": "14k Guld <span class='seperate-line'>-</span> <span>585</span>"
+                },
+                {
+                    "option_type_id": "2008645",
+                    "option_id": "242161",
+                    "sku": "white_yellow-750",
+                    "default_title": "Weiß-Gelbgold 750",
+                    "store_title": "18k Vit & Gult Guld",
+                    "title": "18k Vit & Gult Guld",
+                    "price": "76.00",
+                    "price_type": "percent",
+                    "is_default": false,
+                    "colour": "white_yellow",
+                    "metal": "750",
+                    "colour_label": "Vit/Gult",
+                    "metal_label": "18k Guld <span class='seperate-line'>-</span> <span>750</span>"
+                },
+                {
+                    "option_type_id": "2008646",
+                    "option_id": "242161",
+                    "sku": "yellow_white-750",
+                    "default_title": "Gelb-Weißgold 750",
+                    "store_title": "18k Gult & Vit Guld",
+                    "title": "18k Gult & Vit Guld",
+                    "price": "76.00",
+                    "price_type": "percent",
+                    "is_default": false,
+                    "colour": "yellow_white",
+                    "metal": "750",
+                    "colour_label": "Gult Vit",
+                    "metal_label": "18k Guld <span class='seperate-line'>-</span> <span>750</span>"
+                },
+                {
+                    "option_type_id": "2008647",
+                    "option_id": "242161",
+                    "sku": "white-750",
+                    "default_title": "Weißgold 750",
+                    "store_title": "18k Vitguld",
+                    "title": "18k Vitguld",
+                    "price": "76.00",
+                    "price_type": "percent",
+                    "is_default": false,
+                    "colour": "white",
+                    "metal": "750",
+                    "colour_label": "Vit",
+                    "metal_label": "18k Guld <span class='seperate-line'>-</span> <span>750</span>"
+                },
+                {
+                    "option_type_id": "2008648",
+                    "option_id": "242161",
+                    "sku": "yellow-750",
+                    "default_title": "Gelbgold 750",
+                    "store_title": "18k Gult Guld",
+                    "title": "18k Gult Guld",
+                    "price": "76.00",
+                    "price_type": "percent",
+                    "is_default": false,
+                    "colour": "yellow",
+                    "metal": "750",
+                    "colour_label": "Gul ",
+                    "metal_label": "18k Guld <span class='seperate-line'>-</span> <span>750</span>"
+                },
+                {
+                    "option_type_id": "2008649",
+                    "option_id": "242161",
+                    "sku": "red-750",
+                    "default_title": "Rotgold 750",
+                    "store_title": "18k Rött Guld",
+                    "title": "18k Rött Guld",
+                    "price": "76.00",
+                    "price_type": "percent",
+                    "is_default": false,
+                    "colour": "red",
+                    "metal": "750",
+                    "colour_label": "Ros",
+                    "metal_label": "18k Guld <span class='seperate-line'>-</span> <span>750</span>"
+                },
+                {
+                    "option_type_id": "2008650",
+                    "option_id": "242161",
+                    "sku": "white_red-750",
+                    "default_title": "Weiß-Rotgold 750",
+                    "store_title": "18k Vit & Rött Guld",
+                    "title": "18k Vit & Rött Guld",
+                    "price": "76.00",
+                    "price_type": "percent",
+                    "is_default": false,
+                    "colour": "white_red",
+                    "metal": "750",
+                    "colour_label": "Vit/Ros",
+                    "metal_label": "18k Guld <span class='seperate-line'>-</span> <span>750</span>"
+                },
+                {
+                    "option_type_id": "2008651",
+                    "option_id": "242161",
+                    "sku": "red_white-750",
+                    "default_title": "Rot-Weißgold 750",
+                    "store_title": "18k Rött & Vit Guld",
+                    "title": "18k Rött & Vit Guld",
+                    "price": "76.00",
+                    "price_type": "percent",
+                    "is_default": false,
+                    "colour": "red_white",
+                    "metal": "750",
+                    "colour_label": "Ros Vit",
+                    "metal_label": "18k Guld <span class='seperate-line'>-</span> <span>750</span>"
+                },
+                {
+                    "option_type_id": "2008654",
+                    "option_id": "242161",
+                    "sku": "white-platin",
+                    "default_title": "950 Platin",
+                    "store_title": "950 Platina",
+                    "title": "950 Platina",
+                    "price": "170.00",
+                    "price_type": "percent",
+                    "is_default": false,
+                    "colour": "white",
+                    "metal": "platin",
+                    "colour_label": "Vit",
+                    "metal_label": "950 Platina"
+                },
+                {
+                    "option_type_id": "2008656",
+                    "option_id": "242161",
+                    "sku": "white-palladium",
+                    "default_title": "950 Palladium",
+                    "store_title": "950 Palladium",
+                    "title": "950 Palladium",
+                    "price": "650.00",
+                    "price_type": "percent",
+                    "is_default": false,
+                    "colour": "white",
+                    "metal": "palladium",
+                    "colour_label": "Vit",
+                    "metal_label": "950 Palladium"
+                }
+            ]
+        },
+        {
+            "option_id": "242163",
+            "product_id": "99879",
+            "type": "chain",
+            "is_require": 0,
+            "sku": null,
+            "max_characters": null,
+            "file_extension": null,
+            "image_size_x": null,
+            "image_size_y": null,
+            "sort_order": "25",
+            "max_characters_wrong": null,
+            "part_type": "chain_type",
+            "engraving_type": null,
+            "engraving_position": null,
+            "custom_size": "0",
+            "use_stone": null,
+            "default_value": null,
+            "default_title": "Chain type",
+            "store_title": null,
+            "title": "Kedja",
+            "default_price": null,
+            "default_price_type": null,
+            "store_price": null,
+            "store_price_type": null,
+            "price": null,
+            "price_type": null,
+            "store_id": 19,
+            "extension_attributes": {},
+            "detail_title": "Kedja",
+            "group": "chain",
+            "values": [
+                {
+                    "option_type_id": "2008682",
+                    "option_id": "242163",
+                    "sku": "brillforzentina",
+                    "default_title": "Forzentina",
+                    "store_title": "Förzentina",
+                    "title": "Förzentina",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": true
+                },
+                {
+                    "option_type_id": 0,
+                    "option_id": "242163",
+                    "sku": "none",
+                    "default_title": "None",
+                    "store_title": "Nej",
+                    "title": "Nej",
+                    "price": 0,
+                    "price_type": "fixed",
+                    "is_default": 0
+                }
+            ]
+        },
+        {
+            "option_id": "242164",
+            "product_id": "99879",
+            "type": "chain",
+            "is_require": 0,
+            "sku": null,
+            "max_characters": null,
+            "file_extension": null,
+            "image_size_x": null,
+            "image_size_y": null,
+            "sort_order": "30",
+            "max_characters_wrong": null,
+            "part_type": "chain_colour",
+            "engraving_type": null,
+            "engraving_position": null,
+            "custom_size": "0",
+            "use_stone": null,
+            "default_value": null,
+            "default_title": "Chain Colour",
+            "store_title": null,
+            "title": "Kedjefärg",
+            "default_price": null,
+            "default_price_type": null,
+            "store_price": null,
+            "store_price_type": null,
+            "price": null,
+            "price_type": null,
+            "store_id": 19,
+            "extension_attributes": {},
+            "detail_title": "Kedjefärg",
+            "group": "chain",
+            "values": [
+                {
+                    "option_type_id": "2008685",
+                    "option_id": "242164",
+                    "sku": "white",
+                    "default_title": "White",
+                    "store_title": "Vit",
+                    "title": "Vit",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": true
+                },
+                {
+                    "option_type_id": "2008686",
+                    "option_id": "242164",
+                    "sku": "yellow",
+                    "default_title": "Yellow",
+                    "store_title": "Gul ",
+                    "title": "Gul ",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false
+                },
+                {
+                    "option_type_id": "2008687",
+                    "option_id": "242164",
+                    "sku": "red",
+                    "default_title": "Rose",
+                    "store_title": "Ros",
+                    "title": "Ros",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false
+                },
+                {
+                    "option_type_id": 0,
+                    "option_id": "242164",
+                    "sku": "none",
+                    "default_title": "None",
+                    "store_title": "Nej",
+                    "title": "Nej",
+                    "price": 0,
+                    "price_type": "fixed",
+                    "is_default": 0
+                }
+            ]
+        },
+        {
+            "option_id": "242165",
+            "product_id": "99879",
+            "type": "chain",
+            "is_require": 0,
+            "sku": null,
+            "max_characters": null,
+            "file_extension": null,
+            "image_size_x": null,
+            "image_size_y": null,
+            "sort_order": "35",
+            "max_characters_wrong": null,
+            "part_type": "chain_size",
+            "engraving_type": null,
+            "engraving_position": null,
+            "custom_size": "0",
+            "use_stone": null,
+            "default_value": null,
+            "default_title": "Chain size",
+            "store_title": null,
+            "title": "Kedjestorlek",
+            "default_price": null,
+            "default_price_type": null,
+            "store_price": null,
+            "store_price_type": null,
+            "price": null,
+            "price_type": null,
+            "store_id": 19,
+            "extension_attributes": {},
+            "detail_title": "Kedjestorlek",
+            "group": "chain",
+            "values": [
+                {
+                    "option_type_id": "2008688",
+                    "option_id": "242165",
+                    "sku": null,
+                    "default_title": "41-45 cm",
+                    "store_title": "41-45 cm",
+                    "title": "41-45 cm",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": true
+                },
+                {
+                    "option_type_id": "2008689",
+                    "option_id": "242165",
+                    "sku": null,
+                    "default_title": "46-50 cm",
+                    "store_title": "46-50 cm",
+                    "title": "46-50 cm",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false
+                },
+                {
+                    "option_type_id": 0,
+                    "option_id": "242165",
+                    "sku": "none",
+                    "default_title": "None",
+                    "store_title": "Nej",
+                    "title": "Nej",
+                    "price": 0,
+                    "price_type": "fixed",
+                    "is_default": 0
+                }
+            ]
+        },
+        {
+            "option_id": "242166",
+            "product_id": "99879",
+            "type": "chain",
+            "is_require": 0,
+            "sku": null,
+            "max_characters": null,
+            "file_extension": null,
+            "image_size_x": null,
+            "image_size_y": null,
+            "sort_order": "40",
+            "max_characters_wrong": null,
+            "part_type": "chain_alloy",
+            "engraving_type": null,
+            "engraving_position": null,
+            "custom_size": "0",
+            "use_stone": null,
+            "default_value": null,
+            "default_title": "Chain alloy",
+            "store_title": null,
+            "title": "Kedje legering",
+            "default_price": null,
+            "default_price_type": null,
+            "store_price": null,
+            "store_price_type": null,
+            "price": null,
+            "price_type": null,
+            "store_id": 19,
+            "extension_attributes": {},
+            "detail_title": "Kedje legering",
+            "group": "chain",
+            "values": [
+                {
+                    "option_type_id": "2008691",
+                    "option_id": "242166",
+                    "sku": "375",
+                    "default_title": "375 Gold",
+                    "store_title": "9k Guld <span class='seperate-line'>-</span> <span>375</span>",
+                    "title": "9k Guld <span class='seperate-line'>-</span> <span>375</span>",
+                    "price": "1484.00",
+                    "price_type": "fixed",
+                    "is_default": true
+                },
+                {
+                    "option_type_id": "2008692",
+                    "option_id": "242166",
+                    "sku": "585",
+                    "default_title": "585 Gold",
+                    "store_title": "14k Guld <span class='seperate-line'>-</span> <span>585</span>",
+                    "title": "14k Guld <span class='seperate-line'>-</span> <span>585</span>",
+                    "price": "1484.00",
+                    "price_type": "fixed",
+                    "is_default": false
+                },
+                {
+                    "option_type_id": "2008693",
+                    "option_id": "242166",
+                    "sku": "750",
+                    "default_title": "750 Gold",
+                    "store_title": "18k Guld <span class='seperate-line'>-</span> <span>750</span>",
+                    "title": "18k Guld <span class='seperate-line'>-</span> <span>750</span>",
+                    "price": "1662.00",
+                    "price_type": "fixed",
+                    "is_default": false
+                },
+                {
+                    "option_type_id": "2008694",
+                    "option_id": "242166",
+                    "sku": "silber",
+                    "default_title": "925 Silber",
+                    "store_title": "925 Silver",
+                    "title": "925 Silver",
+                    "price": "474.00",
+                    "price_type": "fixed",
+                    "is_default": false
+                },
+                {
+                    "option_type_id": 0,
+                    "option_id": "242166",
+                    "sku": "none",
+                    "default_title": "None",
+                    "store_title": "Nej",
+                    "title": "Nej",
+                    "price": 0,
+                    "price_type": "fixed",
+                    "is_default": 0
+                }
+            ]
+        },
+        {
+            "option_id": "242168",
+            "product_id": "99879",
+            "type": "engraving_font",
+            "is_require": 0,
+            "sku": null,
+            "max_characters": null,
+            "file_extension": null,
+            "image_size_x": null,
+            "image_size_y": null,
+            "sort_order": "125",
+            "max_characters_wrong": null,
+            "part_type": null,
+            "engraving_type": "ring",
+            "engraving_position": "outside",
+            "custom_size": "0",
+            "use_stone": null,
+            "default_value": null,
+            "default_title": "Font Engraving",
+            "store_title": null,
+            "title": "Font gravering",
+            "default_price": null,
+            "default_price_type": null,
+            "store_price": null,
+            "store_price_type": null,
+            "price": null,
+            "price_type": null,
+            "store_id": 19,
+            "extension_attributes": {},
+            "detail_title": "Font gravering",
+            "group": "engraving_font",
+            "values": [
+                {
+                    "option_type_id": "2008697",
+                    "option_id": "242168",
+                    "sku": null,
+                    "default_title": "Century",
+                    "store_title": "Century",
+                    "title": "Century",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false
+                },
+                {
+                    "option_type_id": "2008698",
+                    "option_id": "242168",
+                    "sku": null,
+                    "default_title": "Dynamo MN",
+                    "store_title": "Dynamo MN",
+                    "title": "Dynamo MN",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false
+                },
+                {
+                    "option_type_id": "2008696",
+                    "option_id": "242168",
+                    "sku": null,
+                    "default_title": "Ethernal23",
+                    "store_title": "Ethernal23",
+                    "title": "Ethernal23",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": true
+                },
+                {
+                    "option_type_id": "2008699",
+                    "option_id": "242168",
+                    "sku": null,
+                    "default_title": "Snell BT",
+                    "store_title": "Snell BT",
+                    "title": "Snell BT",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false
+                }
+            ]
+        },
+        {
+            "option_id": "242169",
+            "product_id": "99879",
+            "type": "engraving_field",
+            "is_require": 0,
+            "sku": null,
+            "max_characters": null,
+            "file_extension": null,
+            "image_size_x": null,
+            "image_size_y": null,
+            "sort_order": "140",
+            "max_characters_wrong": null,
+            "part_type": null,
+            "engraving_type": "ring",
+            "engraving_position": "outside",
+            "custom_size": "0",
+            "use_stone": null,
+            "default_value": null,
+            "default_title": "Outside Engraving",
+            "store_title": null,
+            "title": "Gravyr på utsidan",
+            "default_price": null,
+            "default_price_type": null,
+            "store_price": null,
+            "store_price_type": null,
+            "price": null,
+            "price_type": null,
+            "store_id": 19,
+            "extension_attributes": {},
+            "detail_title": "Gravyr på utsidan",
+            "group": "engraving_field",
+            "values": [
+                {
+                    "option_type_id": "4000174",
+                    "option_id": "242169",
+                    "sku": "N",
+                    "default_title": "N",
+                    "store_title": "N",
+                    "title": "N",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "max_characters": "1",
+                    "max_characters_wrong": null
+                },
+                {
+                    "option_type_id": "4000521",
+                    "option_id": "242169",
+                    "sku": "C",
+                    "default_title": "C",
+                    "store_title": "C",
+                    "title": "C",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "max_characters": "1",
+                    "max_characters_wrong": null
+                },
+                {
+                    "option_type_id": "4000522",
+                    "option_id": "242169",
+                    "sku": "♥♥♥♥",
+                    "default_title": "♥♥♥♥",
+                    "store_title": "♥♥♥♥",
+                    "title": "♥♥♥♥",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "max_characters": "4",
+                    "max_characters_wrong": null
+                }
+            ]
+        },
+        {
+            "option_id": "346506",
+            "product_id": "99879",
+            "type": "custom",
+            "is_require": 0,
+            "sku": null,
+            "max_characters": null,
+            "file_extension": null,
+            "image_size_x": null,
+            "image_size_y": null,
+            "sort_order": "1234",
+            "max_characters_wrong": null,
+            "part_type": "rhodium_plated",
+            "engraving_type": null,
+            "engraving_position": null,
+            "custom_size": "0",
+            "use_stone": null,
+            "default_value": null,
+            "default_title": "Rhodium Plated",
+            "store_title": null,
+            "title": "Rhodium Pläterad",
+            "default_price": null,
+            "default_price_type": null,
+            "store_price": null,
+            "store_price_type": null,
+            "price": null,
+            "price_type": null,
+            "store_id": 19,
+            "extension_attributes": {},
+            "detail_title": "Rhodium Pläterad",
+            "group": "custom",
+            "values": [
+                {
+                    "option_type_id": "3388964",
+                    "option_id": "346506",
+                    "sku": "rhodium-plated-y",
+                    "default_title": "Yes",
+                    "store_title": "Ja",
+                    "title": "Ja",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": true
+                },
+                {
+                    "option_type_id": "3421731",
+                    "option_id": "346506",
+                    "sku": "rhodium-plated-n",
+                    "default_title": "No",
+                    "store_title": "Nej",
+                    "title": "Nej",
+                    "price": "0.00",
+                    "price_type": "fixed",
+                    "is_default": false
+                }
+            ]
+        }
+    ],
+    "option_dependent": [
+        {
+            "key": "stone1",
+            "depend": "alloy",
+            "data": {
+                "labdiamond": {
+                    "validSkus": [
+                        "white_yellow-375",
+                        "yellow_white-375",
+                        "white-375",
+                        "yellow-375",
+                        "red-375",
+                        "white_red-375",
+                        "red_white-375",
+                        "white_yellow-585",
+                        "yellow_white-585",
+                        "white-585",
+                        "yellow-585",
+                        "red-585",
+                        "white_red-585",
+                        "red_white-585",
+                        "white_yellow-750",
+                        "yellow_white-750",
+                        "white-750",
+                        "yellow-750",
+                        "red-750",
+                        "white_red-750",
+                        "red_white-750",
+                        "white-platin",
+                        "white-palladium"
+                    ],
+                    "validActive": "white-585",
+                    "opposite": false
+                }
+            }
+        }
+    ],
+    "media_image": {
+        "sku_image": "OEPD-017",
+        "image_load_type": null,
+        "total_thumbs": "5",
+        "images": [
+            {
+                "position": 1,
+                "media_type": "image",
+                "label": "Kvinnans hänge Lakisha",
+                "image_view": "general",
+                "is_default": true,
+                "config": null,
+                "is_feature": true,
+                "area_view": "grid",
+                "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg",
+                "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=516&height=516",
+                "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=516&height=516",
+                "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=220&height=220",
+                "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=220&height=220",
+                "placeholder_alt": "ALLOY_TITLE Rund STONE_TITLE Kvinnans hänge Lakisha view 1"
+            },
+            {
+                "position": 2,
+                "media_type": "image",
+                "label": "Kvinnans hänge Lakisha",
+                "image_view": "general",
+                "is_default": false,
+                "config": null,
+                "is_feature": false,
+                "area_view": "grid",
+                "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg",
+                "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=516&height=516",
+                "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=516&height=516",
+                "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=220&height=220",
+                "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=220&height=220",
+                "placeholder_alt": "ALLOY_TITLE Rund STONE_TITLE Kvinnans hänge Lakisha view 2"
+            },
+            {
+                "position": 3,
+                "media_type": "image",
+                "label": "Kvinnans hänge Lakisha",
+                "image_view": "compare",
+                "is_default": false,
+                "config": null,
+                "is_feature": false,
+                "area_view": null,
+                "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg",
+                "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=516&height=516",
+                "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=516&height=516",
+                "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=220&height=220",
+                "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=220&height=220"
+            },
+            {
+                "position": 4,
+                "media_type": "image",
+                "label": "Kvinnans hänge Lakisha",
+                "image_view": "3d",
+                "is_default": false,
+                "config": null,
+                "is_feature": false,
+                "area_view": "thumb",
+                "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg",
+                "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=516&height=516",
+                "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=516&height=516",
+                "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=220&height=220",
+                "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=220&height=220"
+            },
+            {
+                "position": 5,
+                "media_type": "image",
+                "label": "Kvinnans hänge Lakisha",
+                "image_view": "general",
+                "is_default": false,
+                "config": null,
+                "is_feature": false,
+                "area_view": "grid",
+                "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg",
+                "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=516&height=516",
+                "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=516&height=516",
+                "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=220&height=220",
+                "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/OEPD-017/diamond/diamond-Brillant_AAA/alloycolour/white_red.jpg?width=220&height=220",
+                "placeholder_alt": "ALLOY_TITLE Rund STONE_TITLE Kvinnans hänge Lakisha view 3"
+            }
+        ],
+        "paths": {
+            "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/",
+            "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/?width=516&height=516",
+            "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/?width=516&height=516",
+            "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/?width=220&height=220",
+            "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/?width=220&height=220"
+        },
+        "default_position": 1,
+        "lcpMediaUrl": null
+    },
+    "media_video": {
+        "videos": [
+            {
+                "id": "1191",
+                "name": "video",
+                "media_type": "video",
+                "label": "Kvinnans hänge Lakisha",
+                "file_name": "Lakisha.mp4",
+                "url": "https://cdn-media.glamira.com/media/product/layer/oepd-017/Lakisha.mp4",
+                "hidden": false
+            }
+        ]
+    },
+    "preconfigure": {
+        "options": []
+    },
+    "attributes": {
+        "sku": {
+            "label": "Produkt Nr.",
+            "value": "OEPD-017",
+            "code": "sku"
+        },
+        "gender": {
+            "label": "Kön",
+            "value": "Kvinna",
+            "code": "gender"
+        },
+        "massiv": {
+            "label": "Fast",
+            "value": "Ja",
+            "code": "massiv"
+        },
+        "product_dimension": {
+            "code": "product_dimension",
+            "value": "Klicka för att se",
+            "url": "https://cdn-media.glamira.com/media/product/layer/oepd-017/lifesize.jpg",
+            "label": "Produktdimensioner"
+        }
+    },
+    "dimension_guide": {
+        "tabs": [
+            {
+                "tab_id": "tab_dimensions",
+                "tab_label": "Storlek ",
+                "tab_content_data": {
+                    "dimension_url": "https://cdn-media.glamira.com/media/product/layer/oepd-017/lifesize.jpg",
+                    "dimension_note": "Storleken som visas här reflekterar det ungefärliga produkt värdet. Den riktiga storleken kan variera beroende på produkten."
+                }
+            },
+            {
+                "tab_id": "tab_view_3d",
+                "tab_label": "Visa 3D",
+                "tab_content_data": {
+                    "positions": [
+                        "4"
+                    ]
+                }
+            },
+            {
+                "tab_id": "tab_compare",
+                "tab_label": "Jämför",
+                "tab_content_data": {
+                    "positions": [
+                        "3"
+                    ]
+                }
+            }
+        ],
+        "title": "Storleksguide"
+    },
+    "attributes_link": [
+        {
+            "url": "https://www.glamira.se/diamant-halsband/initialer/",
+            "title": "Initialer Stil",
+            "pos": null,
+            "pos2": "152"
+        }
+    ],
+    "super_data": {
+        "attributes": []
+    },
+    "quantity_option": []
+}

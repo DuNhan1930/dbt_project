@@ -1,0 +1,1 @@
+{{ dbt_utils.test_accepted_range(column_name="amount", inclusive=true, min_value=1, model=get_where_subquery(ref('fact_sales'))) }}

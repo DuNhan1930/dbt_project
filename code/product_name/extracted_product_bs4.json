@@ -1,0 +1,351 @@
+{
+    "product_id": 110185,
+    "timestamp": 1755257014,
+    "name": "Men's Bracelet Aleen",
+    "sku": "Aleen",
+    "attribute_set_id": 55,
+    "attribute_set": "diamonds",
+    "type_id": "simple",
+    "price": 514.0,
+    "min_price": 359.0,
+    "max_price": 4338.0,
+    "currency": "GBP",
+    "min_price_format": "£359.00",
+    "max_price_format": "£4,338.00",
+    "gold_weight": 1.4274,
+    "none_metal_weight": 0,
+    "fixed_silver_weight": 0,
+    "material_design": null,
+    "qty": 1,
+    "collection": "leather",
+    "collection_id": "5402",
+    "product_type": "bracelet",
+    "product_type_value": "6",
+    "category": "839",
+    "category_name": "Bracelets",
+    "store_code": "glgb",
+    "platinum_palladium_info_in_alloy": 0,
+    "bracelet_without_chain": 0,
+    "show_popup_quantity_eternity": 0,
+    "visible_contents": [
+        ""
+    ],
+    "gender": "men",
+    "configure_mode": 0,
+    "included_chain_weight": 0,
+    "quick_options": [
+        {
+            "value": "bestseller",
+            "label": "Most Popular",
+            "request_values": [
+                {
+                    "option_id": "330549",
+                    "part_type": "stone1",
+                    "value": "3501993",
+                    "sku": "black-sapphire"
+                },
+                {
+                    "option_id": "330551",
+                    "part_type": "leather",
+                    "value": "3268074",
+                    "sku": "black"
+                },
+                {
+                    "option_id": "330550",
+                    "part_type": "alloy",
+                    "value": "3268058",
+                    "sku": "yellow-375"
+                }
+            ],
+            "skus": "330549-black-sapphire330551-black330550-yellow-375"
+        },
+        {
+            "value": "highest_price",
+            "label": "Highest Price",
+            "request_values": [
+                {
+                    "option_id": "330549",
+                    "part_type": "stone1",
+                    "sku": "diamond-Brillant",
+                    "value": "3268037",
+                    "optionPrice": 483,
+                    "quality_id": "6304"
+                },
+                {
+                    "option_id": "330550",
+                    "part_type": "alloy",
+                    "sku": "white-palladium",
+                    "value": "3268072",
+                    "optionPrice": 102212
+                }
+            ],
+            "skus": "330549-diamond-Brillant_6304330550-white-palladium"
+        },
+        {
+            "value": "lowest_price",
+            "label": "Lowest Price",
+            "request_values": [
+                {
+                    "option_id": "330549",
+                    "part_type": "stone1",
+                    "sku": "diamond-zirconia",
+                    "value": "3268055",
+                    "optionPrice": "0.00"
+                },
+                {
+                    "option_id": "330550",
+                    "part_type": "alloy",
+                    "sku": "white-silber",
+                    "value": "3268073",
+                    "optionPrice": -155
+                }
+            ],
+            "skus": "330549-diamond-zirconia330550-white-silber"
+        },
+        {
+            "group": "birth_stone",
+            "month": 4,
+            "value": "birth_stone_4",
+            "label": "April's Birthstone",
+            "request_values": [
+                {
+                    "option_id": "330549",
+                    "part_type": "stone1",
+                    "sku": "diamond-Brillant",
+                    "value": "3268037"
+                },
+                {
+                    "option_id": "330550",
+                    "part_type": "alloy",
+                    "value": "3268063",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "330549-diamond-Brillant"
+        },
+        {
+            "group": "birth_stone",
+            "month": 7,
+            "value": "birth_stone_7",
+            "label": "July's Birthstone",
+            "request_values": [
+                {
+                    "option_id": "330549",
+                    "part_type": "stone1",
+                    "sku": "ruby",
+                    "value": "3268045"
+                },
+                {
+                    "option_id": "330550",
+                    "part_type": "alloy",
+                    "value": "3268063",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "330549-ruby"
+        },
+        {
+            "group": "birth_stone",
+            "month": 9,
+            "value": "birth_stone_9",
+            "label": "September's Birthstone",
+            "request_values": [
+                {
+                    "option_id": "330549",
+                    "part_type": "stone1",
+                    "sku": "sapphire",
+                    "value": "3268044"
+                },
+                {
+                    "option_id": "330550",
+                    "part_type": "alloy",
+                    "value": "3268063",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "330549-sapphire"
+        },
+        {
+            "group": "birth_stone",
+            "month": 2,
+            "value": "birth_stone_2",
+            "label": "February's Birthstone",
+            "request_values": [
+                {
+                    "option_id": "330549",
+                    "part_type": "stone1",
+                    "sku": "amethyst",
+                    "value": "3268050"
+                },
+                {
+                    "option_id": "330550",
+                    "part_type": "alloy",
+                    "value": "3268063",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "330549-amethyst"
+        },
+        {
+            "value": "diamond",
+            "label": "Diamond",
+            "request_values": [
+                {
+                    "option_id": "330549",
+                    "part_type": "stone1",
+                    "sku": "diamond-Brillant",
+                    "value": "3268037"
+                },
+                {
+                    "option_id": "330550",
+                    "part_type": "alloy",
+                    "value": "3268063",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "330549-diamond-Brillant"
+        },
+        {
+            "value": "lab_grown",
+            "label": "Lab-Grown",
+            "request_values": [
+                {
+                    "option_id": "330549",
+                    "part_type": "stone1",
+                    "sku": "lab-grown-diamond",
+                    "value": "6907648"
+                },
+                {
+                    "option_id": "330550",
+                    "part_type": "alloy",
+                    "value": "3268063",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "330549-lab-grown-diamond"
+        },
+        {
+            "value": "labdiamond",
+            "label": "Moissanite",
+            "request_values": [
+                {
+                    "option_id": "330549",
+                    "part_type": "stone1",
+                    "sku": "labdiamond",
+                    "value": "7080810"
+                },
+                {
+                    "option_id": "330550",
+                    "part_type": "alloy",
+                    "value": "3268063",
+                    "sku": "white-585",
+                    "optional": true
+                }
+            ],
+            "skus": "330549-labdiamond"
+        }
+    ],
+    "url": "https://www.glamira.co.uk/glamira-men%27s-bracelet-aleen.html?alloy=white-silber&leather=red&stone1=diamond-Brillant",
+    "media_image": [
+        {
+            "position": 1,
+            "media_type": "image",
+            "label": "Men's Bracelet Aleen",
+            "image_view": "general",
+            "is_default": true,
+            "config": null,
+            "is_feature": false,
+            "area_view": "grid",
+            "large_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/1/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg",
+            "medium_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/1/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=516&height=516",
+            "medium_middle_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/1/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=516&height=516",
+            "small_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/1/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=220&height=220",
+            "sticky_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/1/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=220&height=220",
+            "placeholder_alt": "ALLOY_TITLE Round STONE_TITLE Men's Bracelet Aleen view 1"
+        },
+        {
+            "position": 2,
+            "media_type": "image",
+            "label": "Men's Bracelet Aleen",
+            "image_view": "general",
+            "is_default": false,
+            "config": null,
+            "is_feature": false,
+            "area_view": "grid",
+            "large_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/2/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg",
+            "medium_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/2/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=516&height=516",
+            "medium_middle_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/2/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=516&height=516",
+            "small_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/2/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=220&height=220",
+            "sticky_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/2/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=220&height=220",
+            "placeholder_alt": "ALLOY_TITLE Round STONE_TITLE Men's Bracelet Aleen view 2"
+        },
+        {
+            "position": 3,
+            "media_type": "image",
+            "label": "Men's Bracelet Aleen",
+            "image_view": "general",
+            "is_default": false,
+            "config": null,
+            "is_feature": false,
+            "area_view": "grid",
+            "large_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/3/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg",
+            "medium_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/3/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=516&height=516",
+            "medium_middle_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/3/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=516&height=516",
+            "small_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/3/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=220&height=220",
+            "sticky_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/3/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=220&height=220",
+            "placeholder_alt": "ALLOY_TITLE Round STONE_TITLE Men's Bracelet Aleen view 3"
+        },
+        {
+            "position": 4,
+            "media_type": "image",
+            "label": "Men's Bracelet Aleen",
+            "image_view": "general",
+            "is_default": false,
+            "config": null,
+            "is_feature": false,
+            "area_view": "grid",
+            "large_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/4/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg",
+            "medium_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/4/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=516&height=516",
+            "medium_middle_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/4/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=516&height=516",
+            "small_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/4/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=220&height=220",
+            "sticky_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/4/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=220&height=220",
+            "placeholder_alt": "ALLOY_TITLE Round STONE_TITLE Men's Bracelet Aleen view 4"
+        },
+        {
+            "position": 5,
+            "media_type": "image",
+            "label": "Men's Bracelet Aleen",
+            "image_view": "3d",
+            "is_default": false,
+            "config": null,
+            "is_feature": false,
+            "area_view": "thumb",
+            "large_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/5/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg",
+            "medium_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/5/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=516&height=516",
+            "medium_middle_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/5/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=516&height=516",
+            "small_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/5/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=220&height=220",
+            "sticky_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/5/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=220&height=220"
+        },
+        {
+            "position": 6,
+            "media_type": "image",
+            "label": "Men's Bracelet Aleen",
+            "image_view": "3d",
+            "is_default": false,
+            "config": null,
+            "is_feature": false,
+            "area_view": "thumb",
+            "large_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/6/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg",
+            "medium_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/6/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=516&height=516",
+            "medium_middle_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/6/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=516&height=516",
+            "small_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/6/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=220&height=220",
+            "sticky_image_url": "https://uk-media.glamira.com/media/product/newgeneration/view/6/sku/leather-aleen/diamond/lab-grown-diamond_AAA/alloycolour/red/leather/black.jpg?width=220&height=220"
+        }
+    ]
+}

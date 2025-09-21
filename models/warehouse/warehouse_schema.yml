@@ -1,0 +1,241 @@
+version: 2
+
+models:
+  # =========================
+  # DIMENSIONS
+  # =========================
+  - name: dim_customer
+    description: "Customer/device attributes captured at checkout."
+    columns:
+      - name: customer_id
+        description: "Natural key for customer/session."
+        tests:
+          - not_null
+          - unique
+      - name: email_address
+        description: "Email address (if collected)."
+        tests: []
+      - name: resolution
+        description: "Screen resolution."
+        tests: []
+      - name: user_agent
+        description: "Browser user agent."
+        tests: []
+
+  - name: dim_product
+    description: "Product master data."
+    columns:
+      - name: product_id
+        description: "Product natural key."
+        tests:
+          - not_null
+          - unique
+      - name: product_name
+        description: "Display name."
+        tests: []
+      - name: sku
+        description: "SKU code."
+        tests: []
+      - name: gender
+        description: "Target gender."
+        tests: []
+      - name: max_price
+        description: "Max price as formatted or numeric string."
+        tests: []
+      - name: min_price
+        description: "Min price as formatted or numeric string."
+        tests: []
+      - name: type_id
+        description: "Product type id."
+        tests: []
+      - name: store_code
+        description: "Owning store code."
+        tests: []
+
+  - name: dim_store
+    description: "Store reference."
+    columns:
+      - name: store_id
+        description: "Store ID."
+        tests:
+          - not_null
+          - unique
+      - name: store_name
+        description: "Store name."
+        tests: []
+
+  - name: dim_location
+    description: "IP-derived location info."
+    columns:
+      - name: location_id
+        description: "Surrogate key."
+        tests:
+          - not_null
+          - unique
+      - name: city_name
+        description: "City."
+        tests: []
+      - name: country_long_name
+        description: "Country long name."
+        tests: []
+      - name: country_short_name
+        description: "ISO2 country code."
+        tests: []
+      - name: latitude
+        description: "Latitude."
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: -180
+                max_value: 180
+                inclusive: true
+      - name: longitude
+        description: "Longitude."
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: -180
+                max_value: 180
+                inclusive: true
+      - name: region_name
+        description: "Region/state."
+        tests: []
+      - name: time_zone
+        description: "Timezone."
+        tests: []
+      - name: zip_code
+        description: "Postal code."
+        tests: []
+
+  - name: dim_date
+    description: "Calendar/date dimension derived from timestamps."
+    columns:
+      - name: date_id
+        description: "yyyymmdd in bigint key"
+        tests:
+          - not_null
+          - unique
+      - name: full_date
+        description: "Date value."
+        tests:
+          - not_null
+      - name: day_of_week
+        description: "Name of weekday."
+        tests: []
+      - name: is_weekend
+        description: "Weekend flag."
+        tests: []
+      - name: day_of_month
+        description: "Day in month."
+        tests: []
+      - name: year_month
+        description: "Month period."
+        tests: []
+      - name: month
+        description: "Month number."
+        tests: []
+      - name: week_of_year
+        description: "ISO week number."
+        tests: []
+      - name: quarter_number
+        description: "Quarter label (e.g., Q1)."
+        tests: []
+      - name: year
+        description: "Year as date or number-like."
+        tests: []
+      - name: year_number
+        description: "Year number."
+        tests: []
+
+  # =========================
+  # FACT
+  # =========================
+  - name: fact_sales
+    description: "One row per product in cart at checkout (flattened)."
+    columns:
+      - name: sale_id
+        description: "Primary key (surrogate)."
+        tests:
+          - not_null
+          - unique
+
+      - name: order_id
+        description: "Order id."
+        tests: []
+
+      - name: customer_id
+        description: "FK to dim_customer."
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_customer')
+                field: customer_id
+
+      - name: date_id
+        description: "FK to dim_date."
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_id
+
+      - name: location_id
+        description: "FK to dim_location."
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_location')
+                field: location_id
+
+      - name: ip_address
+        description: "IP address string."
+        tests: []
+
+      - name: time_stamp
+        description: "Event date (UTC)."
+        tests: []
+
+      - name: local_time
+        description: "Event date in local time."
+        tests: []
+
+      - name: store_id
+        description: "FK to dim_store."
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_store')
+                field: store_id
+
+      - name: product_id
+        description: "FK to dim_product."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_product')
+                field: product_id
+
+      - name: amount
+        description: "Quantity."
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 1
+                inclusive: true
+
+      - name: currency_code
+        description: "3-letter ISO code when available."
+        tests:
+          - dbt_utils.expression_is_true:
+              arguments:
+                expression: "currency_code IS NULL OR REGEXP_CONTAINS(currency_code, r'^[A-Z]{3}$')"
+
+      - name: price
+        description: "Unit price."
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                inclusive: true
