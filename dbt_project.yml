@@ -24,8 +24,8 @@ models:
       +schema: staging
       +materialized: table
 
-    warehouse:
-      +schema: warehouse
+    core:
+      +schema: core
       +materialized: table
 
     mart:
@@ -35,7 +35,7 @@ models:
 # Seeds
 seeds:
   dbt_project:
-    +schema: warehouse   
+    +schema: core   
     dim_currency:
       +column_types:
         symbol: string

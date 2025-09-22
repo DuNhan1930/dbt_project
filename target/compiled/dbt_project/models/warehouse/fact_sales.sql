@@ -12,7 +12,7 @@ sales AS (
     src.customer_id,
 
     CAST(FORMAT_DATE('%Y%m%d', DATE(TIMESTAMP_SECONDS(src.time_stamp))) AS INT64) AS date_id,
-    TIMESTAMP_SECONDS(src.time_stamp) AS time_stamp,
+    DATE(TIMESTAMP_SECONDS(src.time_stamp)) AS time_stamp,
     src.local_time,
 
     l.location_id,
@@ -64,6 +64,7 @@ SELECT
   store_id,
   product_id,
   amount,
-  price_in_usd,
-  price_in_usd * amount AS line_total
+  currency_code,
+  ROUND(price_in_usd, 3) AS price_in_usd,
+  ROUND(price_in_usd * amount, 3) AS line_total
 FROM with_rates

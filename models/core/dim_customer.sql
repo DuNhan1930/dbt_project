@@ -3,14 +3,14 @@
 WITH src AS (
     SELECT *
     FROM {{ ref('stag_customer') }}
-),
+)
 
-customer AS (
+,customer AS (
     SELECT
-        customer_id,
-        email_address,
-        resolution,
-        user_agent
+        customer_id
+        ,email_address
+        ,resolution
+        ,user_agent
     FROM src 
 )
 
