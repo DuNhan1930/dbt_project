@@ -12,12 +12,15 @@ models:
         tests:
           - not_null
           - unique
+          
       - name: email_address
         description: "Email address (if collected)."
         tests: []
+
       - name: resolution
         description: "Screen resolution."
         tests: []
+
       - name: user_agent
         description: "Browser user agent."
         tests: []
@@ -30,24 +33,31 @@ models:
         tests:
           - not_null
           - unique
+
       - name: product_name
         description: "Display name."
         tests: []
+
       - name: sku
         description: "SKU code."
         tests: []
+
       - name: gender
         description: "Target gender."
         tests: []
+
       - name: max_price
         description: "Max price as formatted or numeric string."
         tests: []
+
       - name: min_price
         description: "Min price as formatted or numeric string."
         tests: []
+
       - name: type_id
         description: "Product type id."
         tests: []
+
       - name: store_code
         description: "Owning store code."
         tests: []
@@ -60,6 +70,7 @@ models:
         tests:
           - not_null
           - unique
+
       - name: store_name
         description: "Store name."
         tests: []
@@ -72,15 +83,19 @@ models:
         tests:
           - not_null
           - unique
+
       - name: city_name
         description: "City."
         tests: []
-      - name: country_long_name
-        description: "Country long name."
-        tests: []
+
       - name: country_short_name
         description: "ISO2 country code."
         tests: []
+
+      - name: country_long_name
+        description: "Country long name."
+        tests: []
+
       - name: latitude
         description: "Latitude."
         tests:
@@ -89,6 +104,7 @@ models:
                 min_value: -180
                 max_value: 180
                 inclusive: true
+
       - name: longitude
         description: "Longitude."
         tests:
@@ -97,12 +113,15 @@ models:
                 min_value: -180
                 max_value: 180
                 inclusive: true
+
       - name: region_name
         description: "Region/state."
         tests: []
+
       - name: time_zone
         description: "Timezone."
         tests: []
+
       - name: zip_code
         description: "Postal code."
         tests: []
@@ -115,34 +134,44 @@ models:
         tests:
           - not_null
           - unique
+
       - name: full_date
         description: "Date value."
         tests:
           - not_null
+
       - name: day_of_week
         description: "Name of weekday."
         tests: []
+
       - name: is_weekend
         description: "Weekend flag."
         tests: []
+
       - name: day_of_month
         description: "Day in month."
         tests: []
+
       - name: year_month
         description: "Month period."
         tests: []
+
       - name: month
         description: "Month number."
         tests: []
+
       - name: week_of_year
         description: "ISO week number."
         tests: []
+
       - name: quarter_number
         description: "Quarter label (e.g., Q1)."
         tests: []
+
       - name: year
         description: "Year as date or number-like."
         tests: []
+
       - name: year_number
         description: "Year number."
         tests: []
@@ -179,6 +208,14 @@ models:
                 to: ref('dim_date')
                 field: date_id
 
+      - name: time_stamp
+        description: "Event date (UTC)."
+        tests: []
+
+      - name: local_time
+        description: "Event date in local time."
+        tests: []
+
       - name: location_id
         description: "FK to dim_location."
         tests:
@@ -189,14 +226,6 @@ models:
 
       - name: ip_address
         description: "IP address string."
-        tests: []
-
-      - name: time_stamp
-        description: "Event date (UTC)."
-        tests: []
-
-      - name: local_time
-        description: "Event date in local time."
         tests: []
 
       - name: store_id
@@ -226,14 +255,19 @@ models:
                 inclusive: true
 
       - name: currency_code
-        description: "3-letter ISO code when available."
-        tests:
-          - dbt_utils.expression_is_true:
-              arguments:
-                expression: "currency_code IS NULL OR REGEXP_CONTAINS(currency_code, r'^[A-Z]{3}$')"
+        description: "Currency code when available."
+        tests: []
 
-      - name: price
-        description: "Unit price."
+      - name: price_in_usd
+        description: "Price converted into USD."
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                inclusive: true
+
+      - name: line_total
+        description: "Price * amount."
         tests:
           - dbt_utils.accepted_range:
               arguments:

@@ -26,6 +26,14 @@ models:
         description: "Event timestamp."
         tests:
           - not_null
+      
+      - name: time_stamp
+        description: "Event date (UTC)."
+        tests: []
+
+      - name: local_time
+        description: "Event date in local time."
+        tests: []
 
       - name: ip_address
         description: "IP address as STRING."
