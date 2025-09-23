@@ -1,0 +1,117 @@
+version: 2
+
+models:
+  - name: agg_revenue_by_month
+    columns:
+      - name: year_month
+        tests: [not_null]
+
+      - name: revenue
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                inclusive: true
+
+  - name: agg_revenue_by_region
+    columns:
+      - name: country_long_name
+        tests: [not_null]
+
+      - name: region_name
+        tests: []
+
+      - name: revenue
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                inclusive: true
+
+  - name: agg_orders_by_day_region
+    columns:
+      - name: full_date
+        tests: [not_null]
+
+      - name: country_long_name
+        tests: [not_null]
+
+      - name: orders
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                inclusive: true
+
+  - name: agg_orders_by_region
+    columns:
+      - name: country_long_name
+        tests: [not_null]
+
+      - name: orders
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                inclusive: true
+
+  - name: agg_top_product_overall
+    columns:
+      - name: product_id
+        tests: [not_null]
+
+      - name: total_qty
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                inclusive: true
+
+  - name: agg_top_product_by_month
+    columns:
+      - name: year_month
+        tests: [not_null]
+
+      - name: product_id
+        tests: [not_null]
+
+      - name: total_qty
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                inclusive: true
+
+  - name: agg_top_product_by_region
+    columns:
+      - name: country_long_name
+        tests: [not_null]
+
+      - name: product_id
+        tests: [not_null]
+
+      - name: total_qty
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                inclusive: true
+
+  - name: agg_orders_and_revenue_by_month
+    columns:
+      - name: year_month
+        tests: [not_null]
+
+      - name: orders
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                inclusive: true
+                
+      - name: revenue
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                inclusive: true

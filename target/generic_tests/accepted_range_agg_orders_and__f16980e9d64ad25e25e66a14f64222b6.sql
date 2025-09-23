@@ -1,0 +1,1 @@
+{{ dbt_utils.test_accepted_range(column_name="orders", inclusive=true, min_value=0, model=get_where_subquery(ref('agg_orders_and_revenue_by_month'))) }}

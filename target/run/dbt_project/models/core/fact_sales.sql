@@ -60,7 +60,7 @@ with_rates AS (
     ,COALESCE(c.exchange_rate, 1.0) AS exchange_rate
     ,s.price * COALESCE(c.exchange_rate, 1.0) AS price_in_usd
   FROM sales s
-  LEFT JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_warehouse`.`dim_currency` c
+  LEFT JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_currency` c
     ON s.currency_code = c.code OR s.currency_code = c.symbol
 )
 

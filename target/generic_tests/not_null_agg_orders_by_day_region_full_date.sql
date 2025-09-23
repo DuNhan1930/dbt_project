@@ -1,0 +1,1 @@
+{{ test_not_null(column_name="full_date", model=get_where_subquery(ref('agg_orders_by_day_region'))) }}

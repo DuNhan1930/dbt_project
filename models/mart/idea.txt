@@ -1,8 +1,0 @@
-doanh thu theo quy 
-doanh thu theo khu vuc
-so luong don hang theo thoi gian mua tung khu vuc 
-so luong don hang tung khu vuc 
-san pham ban chay nhat
-san pham ban chay nhat theo quy 
-san pham ban chay theo khu vuc 
-so luong don mua va doanh thu 

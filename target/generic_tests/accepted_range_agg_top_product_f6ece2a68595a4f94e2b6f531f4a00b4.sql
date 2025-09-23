@@ -1,0 +1,1 @@
+{{ dbt_utils.test_accepted_range(column_name="total_qty", inclusive=true, min_value=0, model=get_where_subquery(ref('agg_top_product_overall'))) }}

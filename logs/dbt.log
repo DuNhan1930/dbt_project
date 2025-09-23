@@ -7726,3 +7726,952 @@ FROM with_rates
 [0m16:11:10.689988 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7921307b5570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79211020f6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x792130665060>]}
 [0m16:11:10.691019 [debug] [MainThread]: Flushing usage events
 [0m16:11:12.174309 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:01:29.969967 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2feec54b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2fde606d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2fde60670>]}
+
+
+============================== 23:01:29.975172 | 0e1dbbb3-bc70-4e85-ab73-b06c5584dad3 ==============================
+[0m23:01:29.975172 [info ] [MainThread]: Running with dbt=1.10.11
+[0m23:01:29.976121 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'partial_parse': 'True', 'log_format': 'default', 'quiet': 'False', 'debug': 'False', 'log_cache_events': 'False', 'log_path': '/home/dunhan/dbt_project/logs', 'no_print': 'None', 'use_experimental_parser': 'False', 'static_parser': 'True', 'printer_width': '80', 'warn_error': 'None', 'version_check': 'True', 'empty': 'False', 'write_json': 'True', 'profiles_dir': '/home/dunhan/.dbt', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'target_path': 'None', 'introspect': 'True'}
+[0m23:01:34.364686 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2fdfb1c30>]}
+[0m23:01:34.461612 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2fe6a3850>]}
+[0m23:01:34.462906 [info ] [MainThread]: Registered adapter: bigquery=1.10.2
+[0m23:01:34.791207 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m23:01:35.065117 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:01:35.065741 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:01:35.193882 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2de209a50>]}
+[0m23:01:35.437215 [debug] [MainThread]: Wrote artifact WritableManifest to /home/dunhan/dbt_project/target/manifest.json
+[0m23:01:35.468761 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/dunhan/dbt_project/target/semantic_manifest.json
+[0m23:01:35.500982 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2de251720>]}
+[0m23:01:35.502176 [info ] [MainThread]: Found 18 models, 1 seed, 58 data tests, 3 sources, 495 macros
+[0m23:01:35.503208 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2de250790>]}
+[0m23:01:35.509921 [info ] [MainThread]: 
+[0m23:01:35.511334 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m23:01:35.512646 [info ] [MainThread]: 
+[0m23:01:35.513597 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:01:35.526647 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_symmetric-fin-469415-q9'
+[0m23:01:35.528159 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:01:36.489581 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:01:37.371092 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:01:38.206337 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9, now create_symmetric-fin-469415-q9_glamira_data_2025_mart)
+[0m23:01:38.221362 [debug] [ThreadPool]: Creating schema "database: "symmetric-fin-469415-q9"
+schema: "glamira_data_2025_mart"
+"
+[0m23:01:38.235236 [debug] [ThreadPool]: On create_symmetric-fin-469415-q9_glamira_data_2025_mart: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "connection_name": "create_symmetric-fin-469415-q9_glamira_data_2025_mart"} */
+create schema if not exists `symmetric-fin-469415-q9`.`glamira_data_2025_mart`
+  
+[0m23:01:38.235907 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:01:39.745207 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:5024c5f2-fd61-4e6d-8a9d-75184c46ddd4&page=queryresults
+[0m23:01:40.871603 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_symmetric-fin-469415-q9_glamira_data_2025_mart, now list_symmetric-fin-469415-q9_glamira_data_2025_core)
+[0m23:01:40.873352 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:01:41.882012 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_core, now list_symmetric-fin-469415-q9_glamira_data_2025_staging)
+[0m23:01:41.887001 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:01:42.714601 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_staging, now list_symmetric-fin-469415-q9_glamira_data_2025_mart)
+[0m23:01:42.716742 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:01:43.864693 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2de91a560>]}
+[0m23:01:43.865835 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:01:43.900081 [debug] [Thread-1 (]: Began running node model.dbt_project.stag_customer
+[0m23:01:43.901002 [info ] [Thread-1 (]: 1 of 18 START sql table model glamira_data_2025_staging.stag_customer .......... [RUN]
+[0m23:01:43.901882 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_mart, now model.dbt_project.stag_customer)
+[0m23:01:43.902512 [debug] [Thread-1 (]: Began compiling node model.dbt_project.stag_customer
+[0m23:01:43.914732 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.stag_customer"
+[0m23:01:43.916003 [debug] [Thread-1 (]: Began executing node model.dbt_project.stag_customer
+[0m23:01:43.950671 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:01:44.812188 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.stag_customer"
+[0m23:01:44.829426 [debug] [Thread-1 (]: On model.dbt_project.stag_customer: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.stag_customer"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_staging`.`stag_customer`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+WITH src AS (
+  SELECT *
+  FROM `symmetric-fin-469415-q9`.`glamira_data_2025`.`summary`
+)
+
+,checkout_success AS (
+  SELECT
+    _id AS customer_id
+    ,device_id AS device_id
+    ,email_address AS email_address
+    ,resolution AS resolution
+    ,user_id_db AS user_id_db
+    ,user_agent AS user_agent
+  FROM src
+  WHERE collection = 'checkout_success'
+)
+
+SELECT * FROM checkout_success
+    );
+  
+[0m23:01:45.555021 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:ff210e5b-9d35-486e-ada1-89c93852ae73&page=queryresults
+[0m23:01:48.651581 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2e18aa680>]}
+[0m23:01:48.653497 [info ] [Thread-1 (]: 1 of 18 OK created sql table model glamira_data_2025_staging.stag_customer ..... [[32mCREATE TABLE (26.1k rows, 8.8 GiB processed)[0m in 4.73s]
+[0m23:01:48.655160 [debug] [Thread-1 (]: Finished running node model.dbt_project.stag_customer
+[0m23:01:48.656295 [debug] [Thread-1 (]: Began running node model.dbt_project.stag_location
+[0m23:01:48.657166 [info ] [Thread-1 (]: 2 of 18 START sql table model glamira_data_2025_staging.stag_location .......... [RUN]
+[0m23:01:48.658410 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.stag_customer, now model.dbt_project.stag_location)
+[0m23:01:48.659248 [debug] [Thread-1 (]: Began compiling node model.dbt_project.stag_location
+[0m23:01:48.667875 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.stag_location"
+[0m23:01:48.669457 [debug] [Thread-1 (]: Began executing node model.dbt_project.stag_location
+[0m23:01:48.676940 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:01:49.519111 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.stag_location"
+[0m23:01:49.520573 [debug] [Thread-1 (]: On model.dbt_project.stag_location: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.stag_location"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_staging`.`stag_location`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+WITH src AS (
+    SELECT *
+    FROM `symmetric-fin-469415-q9`.`glamira_data_2025`.`location`
+)
+
+,casted AS (
+    SELECT
+        CONCAT(src.city, src.country_short, src.region) AS location_id
+        ,src.ip AS ip_address
+        ,src.city AS city_name
+        ,src.country_short AS country_short_name
+        ,src.country_long AS country_long_name
+        ,ROUND(SAFE_CAST(src.latitude AS NUMERIC), 6) AS latitude
+        ,ROUND(SAFE_CAST(src.longitude AS NUMERIC), 6) AS longitude
+        ,src.region AS region_name
+        ,src.time_zone AS time_zone
+        ,src.zip_code AS zip_code
+    FROM src
+)
+
+SELECT * FROM casted
+    );
+  
+[0m23:01:50.258431 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:8242cd7e-7715-4ae8-a96d-c705e842bdc3&page=queryresults
+[0m23:01:55.094577 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2dd51b0d0>]}
+[0m23:01:55.096093 [info ] [Thread-1 (]: 2 of 18 OK created sql table model glamira_data_2025_staging.stag_location ..... [[32mCREATE TABLE (3.2m rows, 289.2 MiB processed)[0m in 6.44s]
+[0m23:01:55.097523 [debug] [Thread-1 (]: Finished running node model.dbt_project.stag_location
+[0m23:01:55.098706 [debug] [Thread-1 (]: Began running node model.dbt_project.stag_product
+[0m23:01:55.100157 [info ] [Thread-1 (]: 3 of 18 START sql table model glamira_data_2025_staging.stag_product ........... [RUN]
+[0m23:01:55.101458 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.stag_location, now model.dbt_project.stag_product)
+[0m23:01:55.102768 [debug] [Thread-1 (]: Began compiling node model.dbt_project.stag_product
+[0m23:01:55.107454 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.stag_product"
+[0m23:01:55.108367 [debug] [Thread-1 (]: Began executing node model.dbt_project.stag_product
+[0m23:01:55.113740 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:01:55.894555 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.stag_product"
+[0m23:01:55.897545 [debug] [Thread-1 (]: On model.dbt_project.stag_product: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.stag_product"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_staging`.`stag_product`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+WITH src AS (
+  SELECT *
+  FROM `symmetric-fin-469415-q9`.`glamira_data_2025`.`product_name`
+)
+
+,casted AS (
+  SELECT
+    src.product_id AS product_id
+    ,src.name AS product_name
+    ,src.sku AS sku
+    ,src.gender AS gender
+    ,src.max_price_format AS max_price_format
+    ,src.min_price_format AS min_price_format
+    ,src.type_id AS type_id
+    ,src.store_code AS store_code
+  FROM src
+)
+
+SELECT * FROM casted
+    );
+  
+[0m23:01:56.701342 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:8a620658-dfd0-4699-9d7f-94c836ca7fc1&page=queryresults
+[0m23:01:59.172185 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2de22c5e0>]}
+[0m23:01:59.173337 [info ] [Thread-1 (]: 3 of 18 OK created sql table model glamira_data_2025_staging.stag_product ...... [[32mCREATE TABLE (18.8k rows, 1.8 MiB processed)[0m in 4.07s]
+[0m23:01:59.174481 [debug] [Thread-1 (]: Finished running node model.dbt_project.stag_product
+[0m23:01:59.175304 [debug] [Thread-1 (]: Began running node model.dbt_project.stag_sales
+[0m23:01:59.176302 [info ] [Thread-1 (]: 4 of 18 START sql table model glamira_data_2025_staging.stag_sales ............. [RUN]
+[0m23:01:59.177537 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.stag_product, now model.dbt_project.stag_sales)
+[0m23:01:59.178418 [debug] [Thread-1 (]: Began compiling node model.dbt_project.stag_sales
+[0m23:01:59.186779 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.stag_sales"
+[0m23:01:59.187821 [debug] [Thread-1 (]: Began executing node model.dbt_project.stag_sales
+[0m23:01:59.192041 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:02:00.003165 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.stag_sales"
+[0m23:02:00.006197 [debug] [Thread-1 (]: On model.dbt_project.stag_sales: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.stag_sales"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_staging`.`stag_sales`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+WITH src AS (
+ SELECT *
+ FROM `symmetric-fin-469415-q9`.`glamira_data_2025`.`summary`
+)
+
+,flattened AS (
+  SELECT
+    GENERATE_UUID() as sales_id
+    ,CAST(src.order_id AS INT64) AS order_id
+    ,src._id AS customer_id
+    ,src.time_stamp AS date_id
+    ,src.time_stamp AS time_stamp
+    ,src.local_time AS local_time
+    ,src.ip AS ip_address
+    ,CAST(src.store_id AS INT64) AS store_id
+    ,cp.product_id AS product_id
+    ,cp.amount AS amount
+    ,cp.currency AS currency_code
+    ,cp.price AS price
+  FROM src
+  ,UNNEST(src.cart_products) AS cp
+  WHERE collection = 'checkout_success'
+)
+
+SELECT * FROM flattened
+    );
+  
+[0m23:02:00.764447 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:6d6e4148-e151-4900-b1c0-ce432fe8c533&page=queryresults
+[0m23:02:03.861773 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2de22c460>]}
+[0m23:02:03.863896 [info ] [Thread-1 (]: 4 of 18 OK created sql table model glamira_data_2025_staging.stag_sales ........ [[32mCREATE TABLE (35.1k rows, 3.7 GiB processed)[0m in 4.68s]
+[0m23:02:03.865706 [debug] [Thread-1 (]: Finished running node model.dbt_project.stag_sales
+[0m23:02:03.866666 [debug] [Thread-1 (]: Began running node model.dbt_project.dim_customer
+[0m23:02:03.868112 [info ] [Thread-1 (]: 5 of 18 START sql table model glamira_data_2025_core.dim_customer .............. [RUN]
+[0m23:02:03.869273 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.stag_sales, now model.dbt_project.dim_customer)
+[0m23:02:03.870451 [debug] [Thread-1 (]: Began compiling node model.dbt_project.dim_customer
+[0m23:02:03.878120 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.dim_customer"
+[0m23:02:03.879041 [debug] [Thread-1 (]: Began executing node model.dbt_project.dim_customer
+[0m23:02:03.882702 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:02:04.714743 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.dim_customer"
+[0m23:02:04.716067 [debug] [Thread-1 (]: On model.dbt_project.dim_customer: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.dim_customer"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_customer`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+WITH src AS (
+    SELECT *
+    FROM `symmetric-fin-469415-q9`.`glamira_data_2025_staging`.`stag_customer`
+)
+
+,customer AS (
+    SELECT
+        customer_id
+        ,email_address
+        ,resolution
+        ,user_agent
+    FROM src 
+)
+
+SELECT * FROM customer
+    );
+  
+[0m23:02:05.397256 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:61b6deb3-a2b7-4857-8f05-6bb03e2086cc&page=queryresults
+[0m23:02:09.544120 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2de855b70>]}
+[0m23:02:09.545447 [info ] [Thread-1 (]: 5 of 18 OK created sql table model glamira_data_2025_core.dim_customer ......... [[32mCREATE TABLE (26.1k rows, 4.4 MiB processed)[0m in 5.67s]
+[0m23:02:09.546636 [debug] [Thread-1 (]: Finished running node model.dbt_project.dim_customer
+[0m23:02:09.547398 [debug] [Thread-1 (]: Began running node model.dbt_project.dim_location
+[0m23:02:09.548235 [info ] [Thread-1 (]: 6 of 18 START sql table model glamira_data_2025_core.dim_location .............. [RUN]
+[0m23:02:09.549154 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.dim_customer, now model.dbt_project.dim_location)
+[0m23:02:09.549787 [debug] [Thread-1 (]: Began compiling node model.dbt_project.dim_location
+[0m23:02:09.554900 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.dim_location"
+[0m23:02:09.555889 [debug] [Thread-1 (]: Began executing node model.dbt_project.dim_location
+[0m23:02:09.560011 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:02:10.495651 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.dim_location"
+[0m23:02:10.497041 [debug] [Thread-1 (]: On model.dbt_project.dim_location: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.dim_location"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_location`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+WITH src AS (
+    SELECT *
+    FROM `symmetric-fin-469415-q9`.`glamira_data_2025_staging`.`stag_location`
+)
+
+,location_data AS (
+    SELECT DISTINCT
+        location_id
+        ,city_name
+        ,country_short_name
+        ,country_long_name
+        ,latitude
+        ,longitude
+        ,region_name
+        ,time_zone
+        ,zip_code
+    FROM src
+)
+
+SELECT * FROM location_data
+    );
+  
+[0m23:02:11.124196 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:21ab6cca-fc14-4b40-928d-6a5215b79abb&page=queryresults
+[0m23:02:14.475390 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2e18aa680>]}
+[0m23:02:14.476625 [info ] [Thread-1 (]: 6 of 18 OK created sql table model glamira_data_2025_core.dim_location ......... [[32mCREATE TABLE (52.2k rows, 345.3 MiB processed)[0m in 4.93s]
+[0m23:02:14.477655 [debug] [Thread-1 (]: Finished running node model.dbt_project.dim_location
+[0m23:02:14.478388 [debug] [Thread-1 (]: Began running node model.dbt_project.dim_product
+[0m23:02:14.479283 [info ] [Thread-1 (]: 7 of 18 START sql table model glamira_data_2025_core.dim_product ............... [RUN]
+[0m23:02:14.480084 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.dim_location, now model.dbt_project.dim_product)
+[0m23:02:14.480704 [debug] [Thread-1 (]: Began compiling node model.dbt_project.dim_product
+[0m23:02:14.485324 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.dim_product"
+[0m23:02:14.486384 [debug] [Thread-1 (]: Began executing node model.dbt_project.dim_product
+[0m23:02:14.489963 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:02:15.295773 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.dim_product"
+[0m23:02:15.297269 [debug] [Thread-1 (]: On model.dbt_project.dim_product: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.dim_product"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_product`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+WITH src AS (
+  SELECT *
+  FROM `symmetric-fin-469415-q9`.`glamira_data_2025_staging`.`stag_product`
+)
+
+,product AS (
+  SELECT
+    product_id
+    ,product_name
+    ,sku
+    ,gender
+    ,max_price_format AS max_price
+    ,min_price_format AS min_price
+    ,type_id
+    ,store_code
+  FROM src
+)
+
+SELECT * FROM product
+    );
+  
+[0m23:02:15.978420 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:96131141-43df-47a7-8b6d-804984797391&page=queryresults
+[0m23:02:18.521377 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2dc41e230>]}
+[0m23:02:18.522894 [info ] [Thread-1 (]: 7 of 18 OK created sql table model glamira_data_2025_core.dim_product .......... [[32mCREATE TABLE (18.8k rows, 1.8 MiB processed)[0m in 4.04s]
+[0m23:02:18.524354 [debug] [Thread-1 (]: Finished running node model.dbt_project.dim_product
+[0m23:02:18.525729 [debug] [Thread-1 (]: Began running node model.dbt_project.dim_date
+[0m23:02:18.527683 [info ] [Thread-1 (]: 8 of 18 START sql table model glamira_data_2025_core.dim_date .................. [RUN]
+[0m23:02:18.530021 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.dim_product, now model.dbt_project.dim_date)
+[0m23:02:18.531776 [debug] [Thread-1 (]: Began compiling node model.dbt_project.dim_date
+[0m23:02:18.540445 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.dim_date"
+[0m23:02:18.541818 [debug] [Thread-1 (]: Began executing node model.dbt_project.dim_date
+[0m23:02:18.546581 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:02:19.371147 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.dim_date"
+[0m23:02:19.372260 [debug] [Thread-1 (]: On model.dbt_project.dim_date: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.dim_date"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_date`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+WITH src AS (
+    SELECT *
+    FROM `symmetric-fin-469415-q9`.`glamira_data_2025_staging`.`stag_sales`
+)
+
+,date_ AS (
+    SELECT DISTINCT
+        CAST(FORMAT_DATE('%Y%m%d', DATE(TIMESTAMP_SECONDS(src.time_stamp))) AS INT64) AS date_id
+        ,DATE(TIMESTAMP_SECONDS(src.time_stamp)) AS full_date
+    FROM src
+)
+
+SELECT
+    date_id
+    ,full_date
+    ,FORMAT_DATE('%A', full_date) AS day_of_week
+
+    ,CASE 
+        WHEN EXTRACT(DAYOFWEEK FROM full_date) IN (1,7) THEN TRUE 
+        ELSE FALSE 
+    END AS is_weekend
+    
+    ,EXTRACT(DAY FROM full_date) AS day_of_month
+    ,FORMAT_DATE('%Y-%m', full_date) AS year_month
+    ,EXTRACT(MONTH FROM full_date) AS month
+    ,EXTRACT(ISOWEEK FROM full_date) AS week_of_year
+    ,CONCAT('Q', CAST(EXTRACT(QUARTER FROM full_date) AS STRING)) AS quarter_number
+    ,CAST(EXTRACT(YEAR FROM full_date) AS STRING) AS year
+    ,EXTRACT(YEAR FROM full_date) AS year_number
+FROM date_
+ORDER BY full_date
+    );
+  
+[0m23:02:20.058982 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:0173f358-110e-49ae-aefe-c37f1c377866&page=queryresults
+[0m23:02:22.998853 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2de2ac790>]}
+[0m23:02:23.000152 [info ] [Thread-1 (]: 8 of 18 OK created sql table model glamira_data_2025_core.dim_date ............. [[32mCREATE TABLE (65.0 rows, 273.9 KiB processed)[0m in 4.47s]
+[0m23:02:23.001495 [debug] [Thread-1 (]: Finished running node model.dbt_project.dim_date
+[0m23:02:23.002381 [debug] [Thread-1 (]: Began running node model.dbt_project.dim_store
+[0m23:02:23.003895 [info ] [Thread-1 (]: 9 of 18 START sql table model glamira_data_2025_core.dim_store ................. [RUN]
+[0m23:02:23.005167 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.dim_date, now model.dbt_project.dim_store)
+[0m23:02:23.005891 [debug] [Thread-1 (]: Began compiling node model.dbt_project.dim_store
+[0m23:02:23.011774 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.dim_store"
+[0m23:02:23.012667 [debug] [Thread-1 (]: Began executing node model.dbt_project.dim_store
+[0m23:02:23.019803 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:02:23.867357 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.dim_store"
+[0m23:02:23.869725 [debug] [Thread-1 (]: On model.dbt_project.dim_store: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.dim_store"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_store`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+WITH src AS (
+    SELECT *
+    FROM `symmetric-fin-469415-q9`.`glamira_data_2025_staging`.`stag_sales`
+)
+
+,store AS (
+    SELECT
+        DISTINCT store_id
+        ,CONCAT("Store ", CAST(store_id AS STRING)) AS store_name
+    FROM src
+)
+
+SELECT * FROM store
+    );
+  
+[0m23:02:24.550633 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:5d5683c0-28c7-4472-baaf-4ecff91f6919&page=queryresults
+[0m23:02:27.008938 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2e18aa680>]}
+[0m23:02:27.010216 [info ] [Thread-1 (]: 9 of 18 OK created sql table model glamira_data_2025_core.dim_store ............ [[32mCREATE TABLE (65.0 rows, 273.9 KiB processed)[0m in 4.00s]
+[0m23:02:27.011371 [debug] [Thread-1 (]: Finished running node model.dbt_project.dim_store
+[0m23:02:27.012073 [debug] [Thread-1 (]: Began running node model.dbt_project.fact_sales
+[0m23:02:27.013005 [info ] [Thread-1 (]: 10 of 18 START sql table model glamira_data_2025_core.fact_sales ............... [RUN]
+[0m23:02:27.013994 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.dim_store, now model.dbt_project.fact_sales)
+[0m23:02:27.015457 [debug] [Thread-1 (]: Began compiling node model.dbt_project.fact_sales
+[0m23:02:27.027861 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.fact_sales"
+[0m23:02:27.029451 [debug] [Thread-1 (]: Began executing node model.dbt_project.fact_sales
+[0m23:02:27.036134 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:02:27.809441 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.fact_sales"
+[0m23:02:27.811217 [debug] [Thread-1 (]: On model.dbt_project.fact_sales: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.fact_sales"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+WITH src AS (
+  SELECT *
+  FROM `symmetric-fin-469415-q9`.`glamira_data_2025_staging`.`stag_sales`
+)
+
+,sales AS (
+  SELECT 
+    src.sales_id
+    ,src.order_id
+    ,src.customer_id
+
+    ,CAST(FORMAT_DATE('%Y%m%d', DATE(TIMESTAMP_SECONDS(src.time_stamp))) AS INT64) AS date_id
+    ,DATE(TIMESTAMP_SECONDS(src.time_stamp)) AS time_stamp
+    ,src.local_time
+    
+    ,l.location_id
+    ,src.ip_address
+
+    ,src.store_id
+    ,src.product_id
+    ,src.amount
+
+    ,CASE
+      WHEN src.currency_code IS NULL OR TRIM(src.currency_code) = "" THEN "USD $"
+      WHEN TRIM(src.currency_code) = " din." THEN "din."
+      WHEN TRIM(src.currency_code) = "د.ك.‏" THEN "د.ك."
+      ELSE TRIM(src.currency_code)
+    END AS currency_code
+    
+    ,CASE
+      WHEN src.price LIKE '%,%' AND src.price LIKE '%.%' 
+        THEN SAFE_CAST(REPLACE(REPLACE(src.price, '.', ''), ',', '.') AS FLOAT64)
+      WHEN src.price LIKE '%,%' 
+        THEN SAFE_CAST(REPLACE(src.price, ',', '.') AS FLOAT64)
+      ELSE
+        SAFE_CAST(src.price AS FLOAT64)
+    END AS price
+  FROM src
+  LEFT JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_staging`.`stag_location` l
+    ON src.ip_address = l.ip_address
+),
+
+with_rates AS (
+  SELECT
+    s.*
+    ,COALESCE(c.exchange_rate, 1.0) AS exchange_rate
+    ,s.price * COALESCE(c.exchange_rate, 1.0) AS price_in_usd
+  FROM sales s
+  LEFT JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_currency` c
+    ON s.currency_code = c.code OR s.currency_code = c.symbol
+)
+
+SELECT
+  sales_id
+  ,order_id
+  ,customer_id
+  ,date_id
+  ,time_stamp
+  ,local_time
+  ,location_id
+  ,ip_address
+  ,store_id
+  ,product_id
+  ,amount
+  ,currency_code
+  ,ROUND(price_in_usd, 3) AS price_in_usd
+  ,ROUND(price_in_usd * amount, 3) AS line_total
+FROM with_rates
+    );
+  
+[0m23:02:28.479682 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:fed05299-679d-4269-a1c9-08fa9878eba9&page=queryresults
+[0m23:02:32.953113 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2dc419b10>]}
+[0m23:02:32.954483 [info ] [Thread-1 (]: 10 of 18 OK created sql table model glamira_data_2025_core.fact_sales .......... [[32mCREATE TABLE (35.1k rows, 123.6 MiB processed)[0m in 5.94s]
+[0m23:02:32.955509 [debug] [Thread-1 (]: Finished running node model.dbt_project.fact_sales
+[0m23:02:32.957984 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_orders_and_revenue_by_month
+[0m23:02:32.959545 [info ] [Thread-1 (]: 11 of 18 START sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_month  [RUN]
+[0m23:02:32.961619 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.fact_sales, now model.dbt_project.agg_orders_and_revenue_by_month)
+[0m23:02:32.963291 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_orders_and_revenue_by_month
+[0m23:02:32.972143 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_orders_and_revenue_by_month"
+[0m23:02:32.973762 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_orders_and_revenue_by_month
+[0m23:02:32.984310 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_orders_and_revenue_by_month"
+[0m23:02:32.985898 [debug] [Thread-1 (]: On model.dbt_project.agg_orders_and_revenue_by_month: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_orders_and_revenue_by_month"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_orders_and_revenue_by_month`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    d.year_month
+    ,COUNT(DISTINCT f.order_id) AS orders
+    ,SUM(f.line_total) AS revenue
+FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_date` d USING (date_id)
+GROUP BY d.year_month
+ORDER BY d.year_month
+    );
+  
+[0m23:02:32.986794 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:02:34.112350 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:351d2e34-cdfb-4d5b-a98f-a8e06ecef030&page=queryresults
+[0m23:02:37.377696 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2e18aa680>]}
+[0m23:02:37.379222 [info ] [Thread-1 (]: 11 of 18 OK created sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_month  [[32mCREATE TABLE (3.0 rows, 821.5 KiB processed)[0m in 4.42s]
+[0m23:02:37.381994 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_orders_and_revenue_by_month
+[0m23:02:37.384175 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_orders_by_day_region
+[0m23:02:37.386118 [info ] [Thread-1 (]: 12 of 18 START sql table model glamira_data_2025_mart.agg_orders_by_day_region . [RUN]
+[0m23:02:37.387751 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.agg_orders_and_revenue_by_month, now model.dbt_project.agg_orders_by_day_region)
+[0m23:02:37.388965 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_orders_by_day_region
+[0m23:02:37.394547 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_orders_by_day_region"
+[0m23:02:37.395917 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_orders_by_day_region
+[0m23:02:37.409624 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_orders_by_day_region"
+[0m23:02:37.410835 [debug] [Thread-1 (]: On model.dbt_project.agg_orders_by_day_region: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_orders_by_day_region"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_orders_by_day_region`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    d.full_date
+    ,l.country_long_name
+    ,l.region_name
+    ,COUNT(DISTINCT f.order_id) AS orders
+FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_date` d USING (date_id)
+JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_location` l USING (location_id)
+GROUP BY d.full_date, l.country_long_name, l.region_name
+ORDER BY d.full_date, l.country_long_name, l.region_name
+    );
+  
+[0m23:02:37.411557 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:02:38.637179 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:bde14f66-6710-48da-967f-79f00521b1b5&page=queryresults
+[0m23:02:41.700115 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2e18aa680>]}
+[0m23:02:41.702105 [info ] [Thread-1 (]: 12 of 18 OK created sql table model glamira_data_2025_mart.agg_orders_by_day_region  [[32mCREATE TABLE (10.5k rows, 3.9 MiB processed)[0m in 4.31s]
+[0m23:02:41.703753 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_orders_by_day_region
+[0m23:02:41.704528 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_orders_by_region
+[0m23:02:41.705604 [info ] [Thread-1 (]: 13 of 18 START sql table model glamira_data_2025_mart.agg_orders_by_region ..... [RUN]
+[0m23:02:41.706717 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.agg_orders_by_day_region, now model.dbt_project.agg_orders_by_region)
+[0m23:02:41.707554 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_orders_by_region
+[0m23:02:41.714253 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_orders_by_region"
+[0m23:02:41.715676 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_orders_by_region
+[0m23:02:41.722437 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_orders_by_region"
+[0m23:02:41.723571 [debug] [Thread-1 (]: On model.dbt_project.agg_orders_by_region: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_orders_by_region"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_orders_by_region`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    l.country_long_name
+    ,l.region_name
+    ,COUNT(DISTINCT f.order_id) AS orders
+FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_location` l USING (location_id)
+GROUP BY l.country_long_name, l.region_name
+ORDER BY orders DESC
+    );
+  
+[0m23:02:41.724421 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:02:42.916138 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:f8bb4dbd-ccc3-4853-b706-458f75d464d8&page=queryresults
+[0m23:02:46.076032 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2dc43bb20>]}
+[0m23:02:46.078132 [info ] [Thread-1 (]: 13 of 18 OK created sql table model glamira_data_2025_mart.agg_orders_by_region  [[32mCREATE TABLE (715.0 rows, 3.6 MiB processed)[0m in 4.37s]
+[0m23:02:46.079242 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_orders_by_region
+[0m23:02:46.079964 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_revenue_by_month
+[0m23:02:46.081168 [info ] [Thread-1 (]: 14 of 18 START sql table model glamira_data_2025_mart.agg_revenue_by_month ..... [RUN]
+[0m23:02:46.083109 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.agg_orders_by_region, now model.dbt_project.agg_revenue_by_month)
+[0m23:02:46.084240 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_revenue_by_month
+[0m23:02:46.091939 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_revenue_by_month"
+[0m23:02:46.093351 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_revenue_by_month
+[0m23:02:46.098981 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_revenue_by_month"
+[0m23:02:46.100229 [debug] [Thread-1 (]: On model.dbt_project.agg_revenue_by_month: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_revenue_by_month"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_revenue_by_month`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    d.year_month
+    ,SUM(f.line_total) AS revenue
+FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_date` d USING (date_id)
+GROUP BY d.year_month
+ORDER BY d.year_month
+    );
+  
+[0m23:02:46.101195 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:02:47.150218 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:f73cd09a-ca10-4ff5-b77a-d0ffb78b0767&page=queryresults
+[0m23:02:49.701579 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2e18aa680>]}
+[0m23:02:49.702721 [info ] [Thread-1 (]: 14 of 18 OK created sql table model glamira_data_2025_mart.agg_revenue_by_month  [[32mCREATE TABLE (3.0 rows, 547.6 KiB processed)[0m in 3.62s]
+[0m23:02:49.704038 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_revenue_by_month
+[0m23:02:49.705323 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_revenue_by_region
+[0m23:02:49.706778 [info ] [Thread-1 (]: 15 of 18 START sql table model glamira_data_2025_mart.agg_revenue_by_region .... [RUN]
+[0m23:02:49.708264 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.agg_revenue_by_month, now model.dbt_project.agg_revenue_by_region)
+[0m23:02:49.709124 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_revenue_by_region
+[0m23:02:49.719217 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_revenue_by_region"
+[0m23:02:49.720590 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_revenue_by_region
+[0m23:02:49.728257 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_revenue_by_region"
+[0m23:02:49.729638 [debug] [Thread-1 (]: On model.dbt_project.agg_revenue_by_region: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_revenue_by_region"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_revenue_by_region`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    l.country_long_name
+    ,l.region_name
+    ,SUM(f.line_total) AS revenue
+FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_location` l USING (location_id)
+GROUP BY l.country_long_name, l.region_name
+ORDER BY revenue DESC
+    );
+  
+[0m23:02:49.731046 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:02:50.886002 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:06540f62-340b-48d4-9e0b-318896f0dc3c&page=queryresults
+[0m23:02:53.555271 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2e18aa680>]}
+[0m23:02:53.557352 [info ] [Thread-1 (]: 15 of 18 OK created sql table model glamira_data_2025_mart.agg_revenue_by_region  [[32mCREATE TABLE (715.0 rows, 3.6 MiB processed)[0m in 3.85s]
+[0m23:02:53.559361 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_revenue_by_region
+[0m23:02:53.561108 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_top_product_by_month
+[0m23:02:53.563026 [info ] [Thread-1 (]: 16 of 18 START sql table model glamira_data_2025_mart.agg_top_product_by_month . [RUN]
+[0m23:02:53.565436 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.agg_revenue_by_region, now model.dbt_project.agg_top_product_by_month)
+[0m23:02:53.566719 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_top_product_by_month
+[0m23:02:53.578197 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_top_product_by_month"
+[0m23:02:53.580650 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_top_product_by_month
+[0m23:02:53.590472 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_top_product_by_month"
+[0m23:02:53.592278 [debug] [Thread-1 (]: On model.dbt_project.agg_top_product_by_month: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_top_product_by_month"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_top_product_by_month`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+WITH ranked AS (
+    SELECT
+        d.year_month
+        ,p.product_id
+        ,p.product_name
+        ,SUM(f.amount) AS total_qty
+        ,RANK() OVER (PARTITION BY d.year_month ORDER BY SUM(f.amount) DESC) AS rnk
+    FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+    JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_date` d USING (date_id)
+    JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_product` p USING (product_id)
+    GROUP BY d.year_month, p.product_id, p.product_name
+)
+SELECT 
+    year_month
+    ,product_id
+    ,product_name
+    ,total_qty
+FROM ranked
+WHERE rnk = 1
+ORDER BY year_month
+    );
+  
+[0m23:02:53.594424 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:02:55.304631 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:d7da8aca-8c5d-438b-bf87-d2a727dcd48b&page=queryresults
+[0m23:02:59.101602 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2dc4a3be0>]}
+[0m23:02:59.105813 [info ] [Thread-1 (]: 16 of 18 OK created sql table model glamira_data_2025_mart.agg_top_product_by_month  [[32mCREATE TABLE (3.0 rows, 1.5 MiB processed)[0m in 5.54s]
+[0m23:02:59.108915 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_top_product_by_month
+[0m23:02:59.111672 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_top_product_by_region
+[0m23:02:59.114906 [info ] [Thread-1 (]: 17 of 18 START sql table model glamira_data_2025_mart.agg_top_product_by_region  [RUN]
+[0m23:02:59.116686 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.agg_top_product_by_month, now model.dbt_project.agg_top_product_by_region)
+[0m23:02:59.119441 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_top_product_by_region
+[0m23:02:59.144010 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_top_product_by_region"
+[0m23:02:59.147058 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_top_product_by_region
+[0m23:02:59.155425 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_top_product_by_region"
+[0m23:02:59.157549 [debug] [Thread-1 (]: On model.dbt_project.agg_top_product_by_region: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_top_product_by_region"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_top_product_by_region`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+WITH ranked AS (
+    SELECT
+        l.country_long_name
+        ,l.region_name
+        ,p.product_id
+        ,p.product_name
+        ,SUM(f.amount) AS total_qty
+        ,RANK() OVER (
+            PARTITION BY l.country_long_name, l.region_name
+            ORDER BY SUM(f.amount) DESC
+        ) AS rnk
+    FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+    JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_location` l USING (location_id)
+    JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_product` p USING (product_id)
+    GROUP BY l.country_long_name, l.region_name, p.product_id, p.product_name
+)
+
+SELECT 
+    country_long_name
+    ,region_name
+    ,product_id
+    ,product_name
+    ,total_qty
+FROM ranked
+WHERE rnk = 1
+ORDER BY country_long_name, region_name
+    );
+  
+[0m23:02:59.158952 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:03:00.357558 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:a4a3b1ae-c5e7-4e9c-b33b-9f939821d074&page=queryresults
+[0m23:03:07.093569 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2dc4a3be0>]}
+[0m23:03:07.094958 [info ] [Thread-1 (]: 17 of 18 OK created sql table model glamira_data_2025_mart.agg_top_product_by_region  [[32mCREATE TABLE (2.1k rows, 4.6 MiB processed)[0m in 7.98s]
+[0m23:03:07.096119 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_top_product_by_region
+[0m23:03:07.096899 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_top_product_overall
+[0m23:03:07.097837 [info ] [Thread-1 (]: 18 of 18 START sql table model glamira_data_2025_mart.agg_top_product_overall .. [RUN]
+[0m23:03:07.098704 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.agg_top_product_by_region, now model.dbt_project.agg_top_product_overall)
+[0m23:03:07.099334 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_top_product_overall
+[0m23:03:07.106925 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_top_product_overall"
+[0m23:03:07.107924 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_top_product_overall
+[0m23:03:07.112132 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_top_product_overall"
+[0m23:03:07.113226 [debug] [Thread-1 (]: On model.dbt_project.agg_top_product_overall: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_top_product_overall"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_top_product_overall`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+WITH ranked AS (
+    SELECT
+        p.product_id
+        ,p.product_name
+        ,SUM(f.amount) AS total_qty
+        ,RANK() OVER (ORDER BY SUM(f.amount) DESC) AS rnk
+    FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+    JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_product` p USING (product_id)
+    GROUP BY p.product_id, p.product_name
+)
+SELECT
+    product_id
+    ,product_name
+    ,total_qty
+FROM ranked
+WHERE rnk = 1
+    );
+  
+[0m23:03:07.114542 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:03:08.256185 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:5eb4063a-40f5-4a69-a9cc-06662dc22a6d&page=queryresults
+[0m23:03:12.369232 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e1dbbb3-bc70-4e85-ab73-b06c5584dad3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2dc4a3be0>]}
+[0m23:03:12.370512 [info ] [Thread-1 (]: 18 of 18 OK created sql table model glamira_data_2025_mart.agg_top_product_overall  [[32mCREATE TABLE (1.0 rows, 1.2 MiB processed)[0m in 5.27s]
+[0m23:03:12.371917 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_top_product_overall
+[0m23:03:12.373492 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:03:12.375730 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:03:12.376403 [debug] [MainThread]: Connection 'model.dbt_project.agg_top_product_overall' was properly closed.
+[0m23:03:12.377537 [info ] [MainThread]: 
+[0m23:03:12.378876 [info ] [MainThread]: Finished running 18 table models in 0 hours 1 minutes and 36.86 seconds (96.86s).
+[0m23:03:12.387599 [debug] [MainThread]: Command end result
+[0m23:03:12.670615 [debug] [MainThread]: Wrote artifact WritableManifest to /home/dunhan/dbt_project/target/manifest.json
+[0m23:03:12.674169 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/dunhan/dbt_project/target/semantic_manifest.json
+[0m23:03:12.684896 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/dunhan/dbt_project/target/run_results.json
+[0m23:03:12.685866 [info ] [MainThread]: 
+[0m23:03:12.686517 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:03:12.687143 [info ] [MainThread]: 
+[0m23:03:12.687794 [info ] [MainThread]: Done. PASS=18 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=18
+[0m23:03:12.690474 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 102.7999, "process_in_blocks": "320672", "process_kernel_time": 0.759542, "process_mem_max_rss": "358108", "process_out_blocks": "3528", "process_user_time": 12.276943}
+[0m23:03:12.692043 [debug] [MainThread]: Command `dbt run` succeeded at 23:03:12.691719 after 102.80 seconds
+[0m23:03:12.693315 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2feec54b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2fed468c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73c2de419e70>]}
+[0m23:03:12.694570 [debug] [MainThread]: Flushing usage events
+[0m23:03:14.896693 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:57:07.597181 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea0c85a95a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea0c7550700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea0c75506a0>]}
+
+
+============================== 20:57:07.603646 | a711ed17-9a50-431a-95b5-e31ad03f7f62 ==============================
+[0m20:57:07.603646 [info ] [MainThread]: Running with dbt=1.10.11
+[0m20:57:07.604830 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'invocation_command': 'dbt ', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'cache_selected_only': 'False', 'printer_width': '80', 'static_parser': 'True', 'quiet': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'log_path': '/home/dunhan/dbt_project/logs', 'empty': 'None', 'fail_fast': 'False', 'warn_error': 'None', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'partial_parse': 'True', 'use_colors': 'True', 'profiles_dir': '/home/dunhan/.dbt', 'version_check': 'True'}
+[0m20:57:07.868456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a711ed17-9a50-431a-95b5-e31ad03f7f62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea0c741e170>]}
+[0m20:57:07.919334 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m20:57:07.921431 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m20:57:07.924826 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.4719986, "process_in_blocks": "656", "process_kernel_time": 0.21637, "process_mem_max_rss": "96400", "process_out_blocks": "8", "process_user_time": 3.347266}
+[0m20:57:07.926486 [debug] [MainThread]: Command `cli deps` succeeded at 20:57:07.926139 after 0.47 seconds
+[0m20:57:07.927477 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea0c85a95a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea0c741e170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea0c741e020>]}
+[0m20:57:07.928796 [debug] [MainThread]: Flushing usage events
+[0m20:57:09.538627 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -11,9 +11,9 @@ WITH src AS (
     ,CAST(src.order_id AS INT64) AS order_id
     ,src._id AS customer_id
     ,src.time_stamp AS date_id
-    ,src.ip AS ip_address
     ,src.time_stamp AS time_stamp
     ,src.local_time AS local_time
+    ,src.ip AS ip_address
     ,CAST(src.store_id AS INT64) AS store_id
     ,cp.product_id AS product_id
     ,cp.amount AS amount
