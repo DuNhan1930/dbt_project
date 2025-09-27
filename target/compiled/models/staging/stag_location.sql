@@ -7,7 +7,16 @@ WITH src AS (
 
 ,casted AS (
     SELECT
-        CONCAT(src.city, src.country_short, src.region) AS location_id
+        CAST(
+        FARM_FINGERPRINT(
+            CONCAT(
+            COALESCE(src.city, ''), 
+            COALESCE(src.country_short, ''), 
+            COALESCE(src.region, '')
+            )
+        ) AS STRING
+        ) AS location_id
+
         ,src.ip AS ip_address
         ,src.city AS city_name
         ,src.country_short AS country_short_name

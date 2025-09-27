@@ -8703,3 +8703,93 @@ WHERE rnk = 1
 [0m21:18:31.393285 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e37b8b8d4e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e37ba62cf70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e37b7afc4f0>]}
 [0m21:18:31.393960 [debug] [MainThread]: Flushing usage events
 [0m21:18:47.486561 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:27:14.420403 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714d322c1570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714d31268790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714d31268730>]}
+
+
+============================== 23:27:14.423644 | d5ab3835-b235-49d4-848d-93bdb4e94151 ==============================
+[0m23:27:14.423644 [info ] [MainThread]: Running with dbt=1.10.11
+[0m23:27:14.424768 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': '/home/dunhan/dbt_project/logs', 'cache_selected_only': 'False', 'debug': 'False', 'quiet': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'static_parser': 'True', 'warn_error': 'None', 'write_json': 'True', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_cache_events': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'printer_width': '80', 'no_print': 'None', 'profiles_dir': '/home/dunhan/.dbt', 'empty': 'False'}
+[0m23:27:17.109545 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd5ab3835-b235-49d4-848d-93bdb4e94151', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714d33decd60>]}
+[0m23:27:17.204032 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd5ab3835-b235-49d4-848d-93bdb4e94151', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714d31afa620>]}
+[0m23:27:17.204967 [info ] [MainThread]: Registered adapter: bigquery=1.10.2
+[0m23:27:17.502869 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m23:27:17.727914 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 3 files added, 3 files changed.
+[0m23:27:17.728867 [debug] [MainThread]: Partial parsing: added file: dbt_project://tests/assert_ip_address_ipv4_format_location.sql
+[0m23:27:17.729521 [debug] [MainThread]: Partial parsing: added file: dbt_project://tests/assert_stag_customer_email_format.sql
+[0m23:27:17.730093 [debug] [MainThread]: Partial parsing: added file: dbt_project://tests/assert_stag_sales_line_total_non_negative.sql
+[0m23:27:17.730813 [debug] [MainThread]: Partial parsing: updated file: dbt_project://tests/test_schema.yml
+[0m23:27:17.731497 [debug] [MainThread]: Partial parsing: updated file: dbt_project://tests/assert_ip_address_ipv4_format_sales.sql
+[0m23:27:17.732161 [debug] [MainThread]: Partial parsing: updated file: dbt_project://tests/assert_stag_sales_date_consistency.sql
+[0m23:27:18.093255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd5ab3835-b235-49d4-848d-93bdb4e94151', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714d1173b190>]}
+[0m23:27:18.295016 [debug] [MainThread]: Wrote artifact WritableManifest to /home/dunhan/dbt_project/target/manifest.json
+[0m23:27:18.328146 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/dunhan/dbt_project/target/semantic_manifest.json
+[0m23:27:18.354558 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd5ab3835-b235-49d4-848d-93bdb4e94151', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714d11655540>]}
+[0m23:27:18.355359 [info ] [MainThread]: Found 18 models, 1 seed, 67 data tests, 3 sources, 495 macros
+[0m23:27:18.356132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd5ab3835-b235-49d4-848d-93bdb4e94151', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714d11655e40>]}
+[0m23:27:18.360350 [info ] [MainThread]: 
+[0m23:27:18.361137 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m23:27:18.362197 [info ] [MainThread]: 
+[0m23:27:18.363062 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:27:18.373283 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_symmetric-fin-469415-q9'
+[0m23:27:18.374472 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:29:30.577569 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:30:04.012940 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:30:04.015293 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:30:04.015847 [debug] [MainThread]: Connection 'list_symmetric-fin-469415-q9' was left open.
+[0m23:30:04.016410 [info ] [MainThread]: 
+[0m23:30:04.017084 [info ] [MainThread]: Finished running  in 0 hours 2 minutes and 45.65 seconds (165.65s).
+[0m23:30:04.018054 [error] [MainThread]: Encountered an error:
+
+[0m23:30:04.027878 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/dunhan/dbt_project/dbt_venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 706, in create_schemas
+    for ls_future in as_completed(list_futures):
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 245, in as_completed
+    waiter.event.wait(wait_timeout)
+  File "/usr/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dunhan/dbt_project/dbt_venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 178, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/home/dunhan/dbt_project/dbt_venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dunhan/dbt_project/dbt_venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 272, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dunhan/dbt_project/dbt_venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 303, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dunhan/dbt_project/dbt_venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 373, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dunhan/dbt_project/dbt_venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 350, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dunhan/dbt_project/dbt_venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 390, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dunhan/dbt_project/dbt_venv/lib/python3.10/site-packages/dbt/cli/main.py", line 586, in run
+    results = task.run()
+  File "/home/dunhan/dbt_project/dbt_venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 599, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/home/dunhan/dbt_project/dbt_venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 532, in execute_with_hooks
+    before_run_status = self.before_run(adapter, selected_uids)
+  File "/home/dunhan/dbt_project/dbt_venv/lib/python3.10/site-packages/dbt/task/run.py", line 1074, in before_run
+    self.create_schemas(adapter, required_schemas)
+  File "/home/dunhan/dbt_project/dbt_venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 697, in create_schemas
+    with dbt_common.utils.executor(self.config) as tpe:  # type: ignore
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 649, in __exit__
+    self.shutdown(wait=True)
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 235, in shutdown
+    t.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt
+
+[0m23:30:04.030906 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 169.68468, "process_in_blocks": "2216", "process_kernel_time": 0.386728, "process_mem_max_rss": "355164", "process_out_blocks": "3080", "process_user_time": 5.688011}
+[0m23:30:04.031826 [debug] [MainThread]: Command `dbt run` failed at 23:30:04.031647 after 169.69 seconds
+[0m23:30:04.032470 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714d322c1570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714d117c4370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714d117c6290>]}
+[0m23:30:04.033065 [debug] [MainThread]: Flushing usage events
+[0m23:30:05.254042 [debug] [MainThread]: An error was encountered while trying to flush usage events
