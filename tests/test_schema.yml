@@ -1,0 +1,28 @@
+version: 2
+data_tests:
+  - name: assert_stag_sales_price_non_negative
+    description: Unit price in stag_sales must be >= 0.
+
+  - name: assert_stag_sales_amount_positive_integer
+    description: Quantity must be a positive whole number.
+
+  - name: assert_stag_sales_has_valid_product
+    description: Every sales row references an existing product.
+
+  - name: assert_stag_sales_has_valid_customer
+    description: Every sales row references an existing customer/session.
+
+  - name: assert_stag_sales_date_consistency
+    description: DATE(date_id) equals time_stamp (UTC).
+
+  - name: assert_ip_address_ipv4_format_sales
+    description: Sales IPs match IPv4 format.
+
+  - name: assert_ip_address_ipv4_format_location
+    description: Location IPs match IPv4 format.
+
+  - name: assert_stag_customer_email_format
+    description: Email string looks valid.
+    
+  - name: assert_stag_sales_line_total_non_negative
+    description: Line total (price * amount) is >= 0.

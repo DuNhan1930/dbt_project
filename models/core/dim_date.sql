@@ -18,8 +18,10 @@ SELECT
     ,FORMAT_DATE('%A', full_date) AS day_of_week
 
     ,CASE 
-        WHEN EXTRACT(DAYOFWEEK FROM full_date) IN (1,7) THEN TRUE 
-        ELSE FALSE 
+        WHEN EXTRACT(DAYOFWEEK FROM full_date) IN (1,7) 
+            THEN TRUE 
+        ELSE 
+            FALSE 
     END AS is_weekend
     
     ,EXTRACT(DAY FROM full_date) AS day_of_month

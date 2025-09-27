@@ -29,25 +29,25 @@
     "macro_span": {
       "start": {
         "line": 5,
-        "col": 8,
-        "index": 68
+        "col": 7,
+        "index": 66
       },
       "stop": {
         "line": 5,
-        "col": 52,
-        "index": 112
+        "col": 51,
+        "index": 110
       }
     },
     "expanded_span": {
       "start": {
         "line": 5,
-        "col": 8,
-        "index": 34
+        "col": 7,
+        "index": 32
       },
       "stop": {
         "line": 5,
-        "col": 68,
-        "index": 94
+        "col": 67,
+        "index": 92
       }
     }
   }
