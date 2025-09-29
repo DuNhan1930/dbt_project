@@ -1,7 +1,7 @@
 -- Fails if email_address is non-null but malformed
 WITH src AS (
   SELECT email_address
-  FROM {{ ref('stag_customer') }}
+  FROM `symmetric-fin-469415-q9`.`glamira_data_2025_staging`.`stag_customer`
 )
 SELECT *
 FROM src

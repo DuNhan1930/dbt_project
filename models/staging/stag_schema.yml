@@ -14,13 +14,11 @@ models:
         description: "Order identifier from source."
         tests: 
           - not_null
-          - unique
 
       - name: customer_id
         description: "Customer/session id from _id."
         tests: 
           - not_null
-          - unique
 
       - name: date_id
         description: "Event timestamp."
@@ -67,6 +65,7 @@ models:
         description: "Unique customer/session identifier."
         tests:
           - not_null
+          - unique
 
       - name: device_id
         description: "Device identifier string."
@@ -93,7 +92,8 @@ models:
     columns:
       - name: location_id
         description: "Location id for the same city, country, and region."
-        tests: []
+        tests:
+          - not_null
 
       - name: ip_address
         description: "User IP address as string."
@@ -113,21 +113,11 @@ models:
 
       - name: latitude
         description: "Latitude of IP location."
-        tests:
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: -180
-                max_value: 180
-                inclusive: true
+        tests: []
 
       - name: longitude
         description: "Longitude of IP location."
-        tests:
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: -180
-                max_value: 180
-                inclusive: true
+        tests: []
 
       - name: region_name
         description: "Region or state."

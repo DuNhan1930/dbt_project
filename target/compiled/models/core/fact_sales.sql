@@ -69,6 +69,6 @@ SELECT
 	,product_id
 	,amount
 	,currency_code
-	,ROUND(price_in_usd, 3) AS price_in_usd
-	,ROUND(price_in_usd * amount, 3) AS line_total
+	,ROUND(price_in_usd, 3) 			AS price_in_usd
+	,ROUND(price_in_usd * amount, 3) 	AS line_total
 FROM with_rates

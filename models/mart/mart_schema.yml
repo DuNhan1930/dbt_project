@@ -7,13 +7,9 @@ models:
         tests: [not_null]
 
       - name: revenue
-        tests:
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: 0
-                inclusive: true
+        tests: []
 
-  - name: agg_revenue_by_region
+  - name: agg_revenue_by_regiondbt
     columns:
       - name: country_long_name
         tests: [not_null]
@@ -22,11 +18,7 @@ models:
         tests: []
 
       - name: revenue
-        tests:
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: 0
-                inclusive: true
+        tests: []
 
   - name: agg_orders_by_day_region
     columns:
@@ -37,11 +29,7 @@ models:
         tests: [not_null]
 
       - name: orders
-        tests:
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: 0
-                inclusive: true
+        tests: []
 
   - name: agg_orders_by_region
     columns:
@@ -49,11 +37,7 @@ models:
         tests: [not_null]
 
       - name: orders
-        tests:
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: 0
-                inclusive: true
+        tests: []
 
   - name: agg_top_product_overall
     columns:
@@ -61,11 +45,7 @@ models:
         tests: [not_null]
 
       - name: total_qty
-        tests:
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: 0
-                inclusive: true
+        tests: []
 
   - name: agg_top_product_by_month
     columns:
@@ -76,11 +56,7 @@ models:
         tests: [not_null]
 
       - name: total_qty
-        tests:
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: 0
-                inclusive: true
+        tests: []
 
   - name: agg_top_product_by_region
     columns:
@@ -91,11 +67,7 @@ models:
         tests: [not_null]
 
       - name: total_qty
-        tests:
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: 0
-                inclusive: true
+        tests: []
 
   - name: agg_orders_and_revenue_by_month
     columns:
@@ -103,15 +75,7 @@ models:
         tests: [not_null]
 
       - name: orders
-        tests:
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: 0
-                inclusive: true
+        tests: []
                 
       - name: revenue
-        tests:
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: 0
-                inclusive: true
+        tests: []

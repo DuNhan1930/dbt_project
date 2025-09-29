@@ -24,10 +24,10 @@ SELECT
             FALSE 
     END AS is_weekend
     
-    ,EXTRACT(DAY FROM full_date) AS day_of_month
-    ,FORMAT_DATE('%Y-%m', full_date) AS year_month
-    ,EXTRACT(MONTH FROM full_date) AS month
-    ,EXTRACT(ISOWEEK FROM full_date) AS week_of_year
+    ,EXTRACT(DAY FROM full_date)        AS day_of_month
+    ,FORMAT_DATE('%Y-%m', full_date)    AS year_month
+    ,EXTRACT(MONTH FROM full_date)      AS month
+    ,EXTRACT(ISOWEEK FROM full_date)    AS week_of_year
     ,CONCAT('Q', CAST(EXTRACT(QUARTER FROM full_date) AS STRING)) AS quarter_number
     ,CAST(EXTRACT(YEAR FROM full_date) AS STRING) AS year
     ,EXTRACT(YEAR FROM full_date) AS year_number

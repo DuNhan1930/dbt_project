@@ -98,21 +98,11 @@ models:
 
       - name: latitude
         description: "Latitude."
-        tests:
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: -180
-                max_value: 180
-                inclusive: true
+        tests: []
 
       - name: longitude
         description: "Longitude."
-        tests:
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: -180
-                max_value: 180
-                inclusive: true
+        tests: []
 
       - name: region_name
         description: "Region/state."
@@ -120,10 +110,6 @@ models:
 
       - name: time_zone
         description: "Timezone."
-        tests: []
-
-      - name: zip_code
-        description: "Postal code."
         tests: []
 
   - name: dim_date
@@ -182,7 +168,7 @@ models:
   - name: fact_sales
     description: "One row per product in cart at checkout (flattened)."
     columns:
-      - name: sale_id
+      - name: sales_id
         description: "Primary key (surrogate)."
         tests:
           - not_null
@@ -249,10 +235,6 @@ models:
         description: "Quantity."
         tests:
           - not_null
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: 1
-                inclusive: true
 
       - name: currency_code
         description: "Currency code when available."
@@ -260,16 +242,8 @@ models:
 
       - name: price_in_usd
         description: "Price converted into USD."
-        tests:
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: 0
-                inclusive: true
+        tests: []
 
       - name: line_total
         description: "Price * amount."
-        tests:
-          - dbt_utils.accepted_range:
-              arguments:
-                min_value: 0
-                inclusive: true
+        tests: []

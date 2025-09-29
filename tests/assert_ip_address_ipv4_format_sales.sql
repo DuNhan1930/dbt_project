@@ -1,5 +1,4 @@
 -- Fails if any sales.ip_address is NOT a valid IPv4
--- Accepts 0–255 for each octet; rejects blanks/nulls and malformed strings.
 WITH src AS (
     SELECT ip_address
     FROM {{ ref('stag_sales') }}

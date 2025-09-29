@@ -4,7 +4,7 @@ WITH src AS (
         line_total
         ,price_in_usd
         ,amount
-    FROM {{ ref('stag_sales') }}
+    FROM {{ ref('fact_sales') }}
 ),
 calc AS (
     SELECT
