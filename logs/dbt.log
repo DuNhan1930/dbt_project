@@ -29824,3 +29824,634 @@ WHERE rnk = 1
 [0m15:22:13.488870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7144836b14b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714484d7c670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714484cb9cf0>]}
 [0m15:22:13.489576 [debug] [MainThread]: Flushing usage events
 [0m15:22:15.266986 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:39:19.108128 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b6b3c2855a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b6b3b230700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b6b3b2306a0>]}
+
+
+============================== 06:39:19.151223 | f18c2e14-a584-40dd-a253-ec2c9dbcaf1f ==============================
+[0m06:39:19.151223 [info ] [MainThread]: Running with dbt=1.10.11
+[0m06:39:19.152875 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'profiles_dir': '/home/dunhan/.dbt', 'fail_fast': 'False', 'log_cache_events': 'False', 'log_path': '/home/dunhan/dbt_project/logs', 'introspect': 'True', 'cache_selected_only': 'False', 'partial_parse': 'True', 'static_parser': 'True', 'warn_error': 'None', 'target_path': 'None', 'use_experimental_parser': 'False', 'use_colors': 'True', 'empty': 'None', 'version_check': 'True', 'write_json': 'True', 'printer_width': '80', 'quiet': 'False', 'no_print': 'None', 'invocation_command': 'dbt ', 'indirect_selection': 'eager', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m06:39:19.433131 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f18c2e14-a584-40dd-a253-ec2c9dbcaf1f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b6b3b102170>]}
+[0m06:39:19.456277 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m06:39:19.457660 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m06:39:19.460537 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.45134684, "process_in_blocks": "384", "process_kernel_time": 0.213198, "process_mem_max_rss": "96216", "process_out_blocks": "16", "process_user_time": 3.037832}
+[0m06:39:19.461644 [debug] [MainThread]: Command `cli deps` succeeded at 06:39:19.461411 after 0.45 seconds
+[0m06:39:19.462599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b6b3c2855a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b6b3b102170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b6b3b102020>]}
+[0m06:39:19.463480 [debug] [MainThread]: Flushing usage events
+[0m06:39:23.866613 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:10:21.619512 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a70306d540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a701ff4940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a701ff48e0>]}
+
+
+============================== 07:10:21.623036 | 435ab7c4-b72b-48b2-8b98-1ab0b142c1ff ==============================
+[0m07:10:21.623036 [info ] [MainThread]: Running with dbt=1.10.11
+[0m07:10:21.624239 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': '/home/dunhan/.dbt', 'debug': 'False', 'printer_width': '80', 'use_colors': 'True', 'indirect_selection': 'eager', 'log_format': 'default', 'use_experimental_parser': 'False', 'quiet': 'False', 'log_path': '/home/dunhan/dbt_project/logs', 'no_print': 'None', 'warn_error': 'None', 'invocation_command': 'dbt build --select agg_orders_and_revenue_by_week', 'target_path': 'None', 'fail_fast': 'False', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'False', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'log_cache_events': 'False', 'version_check': 'True', 'cache_selected_only': 'False'}
+[0m07:10:24.445929 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '435ab7c4-b72b-48b2-8b98-1ab0b142c1ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a704b04ee0>]}
+[0m07:10:24.561367 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '435ab7c4-b72b-48b2-8b98-1ab0b142c1ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a702802e00>]}
+[0m07:10:24.562413 [info ] [MainThread]: Registered adapter: bigquery=1.10.2
+[0m07:10:24.915762 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m07:10:25.219195 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:10:25.219848 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:10:25.340543 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '435ab7c4-b72b-48b2-8b98-1ab0b142c1ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a6e25c2980>]}
+[0m07:10:25.558563 [debug] [MainThread]: Wrote artifact WritableManifest to /home/dunhan/dbt_project/target/manifest.json
+[0m07:10:25.562858 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/dunhan/dbt_project/target/semantic_manifest.json
+[0m07:10:25.612465 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '435ab7c4-b72b-48b2-8b98-1ab0b142c1ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a6e25c0af0>]}
+[0m07:10:25.613392 [info ] [MainThread]: Found 1 seed, 20 models, 48 data tests, 3 sources, 495 macros
+[0m07:10:25.617380 [info ] [MainThread]: 
+[0m07:10:25.618113 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m07:10:25.618886 [info ] [MainThread]: 
+[0m07:10:25.620378 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m07:10:25.622492 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_symmetric-fin-469415-q9'
+[0m07:10:25.623940 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m07:10:26.465431 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9, now list_symmetric-fin-469415-q9_glamira_data_2025_staging)
+[0m07:10:26.466363 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:10:27.199838 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_staging, now list_symmetric-fin-469415-q9_glamira_data_2025_mart)
+[0m07:10:27.201481 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:10:27.981083 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_mart, now list_symmetric-fin-469415-q9_glamira_data_2025_core)
+[0m07:10:27.984236 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:10:28.726154 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '435ab7c4-b72b-48b2-8b98-1ab0b142c1ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a704ae9ba0>]}
+[0m07:10:28.727033 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m07:10:28.748850 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_orders_and_revenue_by_week
+[0m07:10:28.749775 [info ] [Thread-1 (]: 1 of 1 START sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_week  [RUN]
+[0m07:10:28.750713 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_core, now model.dbt_project.agg_orders_and_revenue_by_week)
+[0m07:10:28.751393 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_orders_and_revenue_by_week
+[0m07:10:28.769316 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_orders_and_revenue_by_week"
+[0m07:10:28.771132 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_orders_and_revenue_by_week
+[0m07:10:28.835393 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_orders_and_revenue_by_week"
+[0m07:10:28.837010 [debug] [Thread-1 (]: On model.dbt_project.agg_orders_and_revenue_by_week: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_orders_and_revenue_by_week"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_orders_and_revenue_by_week`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    d.week_of_year
+    ,COUNT(DISTINCT f.order_id) AS orders
+    ,SUM(f.line_total) AS revenue
+FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_date` d USING (date_id)
+GROUP BY d.week_of_year
+ORDER BY d.week_of_year
+    );
+  
+[0m07:10:28.838309 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m07:10:30.044134 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:38bb7c49-e9f6-48f9-9f01-4e5276c2007e&page=queryresults
+[0m07:10:32.611617 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '435ab7c4-b72b-48b2-8b98-1ab0b142c1ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a6e5a5e860>]}
+[0m07:10:32.613373 [info ] [Thread-1 (]: 1 of 1 OK created sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_week  [[32mCREATE TABLE (10.0 rows, 821.4 KiB processed)[0m in 3.86s]
+[0m07:10:32.614644 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_orders_and_revenue_by_week
+[0m07:10:32.616400 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m07:10:32.618687 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m07:10:32.619266 [debug] [MainThread]: Connection 'model.dbt_project.agg_orders_and_revenue_by_week' was properly closed.
+[0m07:10:32.620336 [info ] [MainThread]: 
+[0m07:10:32.621549 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 7.00 seconds (7.00s).
+[0m07:10:32.623082 [debug] [MainThread]: Command end result
+[0m07:10:32.709955 [debug] [MainThread]: Wrote artifact WritableManifest to /home/dunhan/dbt_project/target/manifest.json
+[0m07:10:32.713171 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/dunhan/dbt_project/target/semantic_manifest.json
+[0m07:10:32.722716 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/dunhan/dbt_project/target/run_results.json
+[0m07:10:32.723325 [info ] [MainThread]: 
+[0m07:10:32.724086 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m07:10:32.724783 [info ] [MainThread]: 
+[0m07:10:32.725573 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m07:10:32.726923 [debug] [MainThread]: Resource report: {"command_name": "build", "command_success": true, "command_wall_clock_time": 11.194694, "process_in_blocks": "2936", "process_kernel_time": 0.454019, "process_mem_max_rss": "359040", "process_out_blocks": "2968", "process_user_time": 6.718492}
+[0m07:10:32.728049 [debug] [MainThread]: Command `dbt build` succeeded at 07:10:32.727806 after 11.20 seconds
+[0m07:10:32.728823 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a70306d540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a70288a0e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a6e2ccbf70>]}
+[0m07:10:32.729529 [debug] [MainThread]: Flushing usage events
+[0m07:10:34.301743 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:12:04.612609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7055e6265510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7055e51e4790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7055e51e4730>]}
+
+
+============================== 07:12:04.616204 | a960e054-ed86-47a4-b05f-0dcc8b7043a8 ==============================
+[0m07:12:04.616204 [info ] [MainThread]: Running with dbt=1.10.11
+[0m07:12:04.617485 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'printer_width': '80', 'static_parser': 'True', 'quiet': 'False', 'empty': 'False', 'version_check': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/dunhan/.dbt', 'debug': 'False', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'no_print': 'None', 'log_format': 'default', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': '/home/dunhan/dbt_project/logs', 'log_cache_events': 'False', 'partial_parse': 'True', 'target_path': 'None', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run --select agg_orders_and_revenue_by_week', 'warn_error': 'None'}
+[0m07:12:07.486956 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a960e054-ed86-47a4-b05f-0dcc8b7043a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7055e7d2cf40>]}
+[0m07:12:07.592386 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a960e054-ed86-47a4-b05f-0dcc8b7043a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7055e51ac400>]}
+[0m07:12:07.593820 [info ] [MainThread]: Registered adapter: bigquery=1.10.2
+[0m07:12:08.142648 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m07:12:08.446593 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:12:08.447208 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:12:08.565104 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a960e054-ed86-47a4-b05f-0dcc8b7043a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7055c57a2350>]}
+[0m07:12:08.828101 [debug] [MainThread]: Wrote artifact WritableManifest to /home/dunhan/dbt_project/target/manifest.json
+[0m07:12:08.831221 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/dunhan/dbt_project/target/semantic_manifest.json
+[0m07:12:08.852659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a960e054-ed86-47a4-b05f-0dcc8b7043a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7055c57935e0>]}
+[0m07:12:08.853638 [info ] [MainThread]: Found 1 seed, 20 models, 48 data tests, 3 sources, 495 macros
+[0m07:12:08.854423 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a960e054-ed86-47a4-b05f-0dcc8b7043a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7055c5793370>]}
+[0m07:12:08.857889 [info ] [MainThread]: 
+[0m07:12:08.858946 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m07:12:08.860105 [info ] [MainThread]: 
+[0m07:12:08.861677 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m07:12:08.863840 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_symmetric-fin-469415-q9'
+[0m07:12:08.864723 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m07:12:09.723760 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9, now list_symmetric-fin-469415-q9_glamira_data_2025_mart)
+[0m07:12:09.724668 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:12:10.518848 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_mart, now list_symmetric-fin-469415-q9_glamira_data_2025_staging)
+[0m07:12:10.521981 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:12:11.312119 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_staging, now list_symmetric-fin-469415-q9_glamira_data_2025_core)
+[0m07:12:11.314107 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:12:12.099442 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a960e054-ed86-47a4-b05f-0dcc8b7043a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7055e6f72d10>]}
+[0m07:12:12.100350 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m07:12:12.106807 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_orders_and_revenue_by_week
+[0m07:12:12.107707 [info ] [Thread-1 (]: 1 of 1 START sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_week  [RUN]
+[0m07:12:12.108765 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_core, now model.dbt_project.agg_orders_and_revenue_by_week)
+[0m07:12:12.109848 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_orders_and_revenue_by_week
+[0m07:12:12.127349 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_orders_and_revenue_by_week"
+[0m07:12:12.128656 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_orders_and_revenue_by_week
+[0m07:12:12.151804 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m07:12:12.930717 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_orders_and_revenue_by_week"
+[0m07:12:12.931929 [debug] [Thread-1 (]: On model.dbt_project.agg_orders_and_revenue_by_week: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_orders_and_revenue_by_week"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_orders_and_revenue_by_week`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    d.week_of_year
+    ,COUNT(DISTINCT f.order_id) AS orders
+    ,SUM(f.line_total) AS revenue
+FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_date` d USING (date_id)
+GROUP BY d.week_of_year
+ORDER BY d.week_of_year
+    );
+  
+[0m07:12:13.641646 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:f1590156-eecb-4cab-9a5e-9f26d41c6fd1&page=queryresults
+[0m07:12:16.386230 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a960e054-ed86-47a4-b05f-0dcc8b7043a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7055c8c466e0>]}
+[0m07:12:16.387710 [info ] [Thread-1 (]: 1 of 1 OK created sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_week  [[32mCREATE TABLE (10.0 rows, 821.4 KiB processed)[0m in 4.27s]
+[0m07:12:16.390244 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_orders_and_revenue_by_week
+[0m07:12:16.391838 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m07:12:16.395667 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m07:12:16.396836 [debug] [MainThread]: Connection 'model.dbt_project.agg_orders_and_revenue_by_week' was properly closed.
+[0m07:12:16.397950 [info ] [MainThread]: 
+[0m07:12:16.399070 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 7.54 seconds (7.54s).
+[0m07:12:16.401126 [debug] [MainThread]: Command end result
+[0m07:12:16.494353 [debug] [MainThread]: Wrote artifact WritableManifest to /home/dunhan/dbt_project/target/manifest.json
+[0m07:12:16.498236 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/dunhan/dbt_project/target/semantic_manifest.json
+[0m07:12:16.510988 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/dunhan/dbt_project/target/run_results.json
+[0m07:12:16.511701 [info ] [MainThread]: 
+[0m07:12:16.512507 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m07:12:16.513269 [info ] [MainThread]: 
+[0m07:12:16.514207 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m07:12:16.515537 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 11.986281, "process_in_blocks": "0", "process_kernel_time": 0.479594, "process_mem_max_rss": "357740", "process_out_blocks": "2944", "process_user_time": 6.829749}
+[0m07:12:16.516963 [debug] [MainThread]: Command `dbt run` succeeded at 07:12:16.516724 after 11.99 seconds
+[0m07:12:16.518162 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7055e6265510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7055e62cfc10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7055e7d2cf40>]}
+[0m07:12:16.519572 [debug] [MainThread]: Flushing usage events
+[0m07:12:18.268622 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:14:34.100278 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78d0a1a894e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78d0a0a28730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78d0a0a286d0>]}
+
+
+============================== 07:14:34.103646 | 5d8eeb1c-3356-4009-901f-b457c574a76e ==============================
+[0m07:14:34.103646 [info ] [MainThread]: Running with dbt=1.10.11
+[0m07:14:34.104656 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'fail_fast': 'False', 'no_print': 'None', 'warn_error': 'None', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run --select agg_orders_and_revenue_by_day', 'empty': 'False', 'log_path': '/home/dunhan/dbt_project/logs', 'log_cache_events': 'False', 'profiles_dir': '/home/dunhan/.dbt', 'log_format': 'default', 'target_path': 'None', 'write_json': 'True', 'version_check': 'True', 'partial_parse': 'True', 'introspect': 'True', 'use_colors': 'True', 'debug': 'False', 'quiet': 'False', 'printer_width': '80'}
+[0m07:14:37.335876 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5d8eeb1c-3356-4009-901f-b457c574a76e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78d0a355bc70>]}
+[0m07:14:37.428743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5d8eeb1c-3356-4009-901f-b457c574a76e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78d0a1266ce0>]}
+[0m07:14:37.429964 [info ] [MainThread]: Registered adapter: bigquery=1.10.2
+[0m07:14:37.755449 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m07:14:38.030207 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:14:38.030872 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:14:38.142795 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5d8eeb1c-3356-4009-901f-b457c574a76e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78d080fc1ea0>]}
+[0m07:14:38.353934 [debug] [MainThread]: Wrote artifact WritableManifest to /home/dunhan/dbt_project/target/manifest.json
+[0m07:14:38.356496 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/dunhan/dbt_project/target/semantic_manifest.json
+[0m07:14:38.379469 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5d8eeb1c-3356-4009-901f-b457c574a76e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78d080fc1f30>]}
+[0m07:14:38.380341 [info ] [MainThread]: Found 1 seed, 20 models, 48 data tests, 3 sources, 495 macros
+[0m07:14:38.381081 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5d8eeb1c-3356-4009-901f-b457c574a76e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78d080fc25f0>]}
+[0m07:14:38.384949 [info ] [MainThread]: 
+[0m07:14:38.385746 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m07:14:38.386848 [info ] [MainThread]: 
+[0m07:14:38.388407 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m07:14:38.390412 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_symmetric-fin-469415-q9'
+[0m07:14:38.391402 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m07:14:39.413198 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9, now list_symmetric-fin-469415-q9_glamira_data_2025_core)
+[0m07:14:39.414144 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:14:40.156617 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_core, now list_symmetric-fin-469415-q9_glamira_data_2025_staging)
+[0m07:14:40.159021 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:14:40.919022 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_staging, now list_symmetric-fin-469415-q9_glamira_data_2025_mart)
+[0m07:14:40.920843 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:14:41.678266 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5d8eeb1c-3356-4009-901f-b457c574a76e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78d0a353a320>]}
+[0m07:14:41.679085 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m07:14:41.684461 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_orders_and_revenue_by_day
+[0m07:14:41.685423 [info ] [Thread-1 (]: 1 of 1 START sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_day  [RUN]
+[0m07:14:41.686326 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_mart, now model.dbt_project.agg_orders_and_revenue_by_day)
+[0m07:14:41.686979 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_orders_and_revenue_by_day
+[0m07:14:41.703238 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_orders_and_revenue_by_day"
+[0m07:14:41.704871 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_orders_and_revenue_by_day
+[0m07:14:41.768024 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_orders_and_revenue_by_day"
+[0m07:14:41.769700 [debug] [Thread-1 (]: On model.dbt_project.agg_orders_and_revenue_by_day: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_orders_and_revenue_by_day"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_orders_and_revenue_by_day`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    d.full_date
+    ,COUNT(DISTINCT f.order_id) AS orders
+    ,SUM(f.line_total) AS revenue
+FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_date` d USING (date_id)
+GROUP BY d.full_date
+ORDER BY d.full_date
+    );
+  
+[0m07:14:41.770431 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m07:14:42.849366 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:ee2a08c2-7490-45e0-a2c3-741677ddd05a&page=queryresults
+[0m07:14:45.577702 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5d8eeb1c-3356-4009-901f-b457c574a76e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78d0810f4df0>]}
+[0m07:14:45.578860 [info ] [Thread-1 (]: 1 of 1 OK created sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_day  [[32mCREATE TABLE (65.0 rows, 821.4 KiB processed)[0m in 3.89s]
+[0m07:14:45.580117 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_orders_and_revenue_by_day
+[0m07:14:45.581669 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m07:14:45.584256 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m07:14:45.585471 [debug] [MainThread]: Connection 'model.dbt_project.agg_orders_and_revenue_by_day' was properly closed.
+[0m07:14:45.586580 [info ] [MainThread]: 
+[0m07:14:45.587697 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 7.20 seconds (7.20s).
+[0m07:14:45.589734 [debug] [MainThread]: Command end result
+[0m07:14:45.676236 [debug] [MainThread]: Wrote artifact WritableManifest to /home/dunhan/dbt_project/target/manifest.json
+[0m07:14:45.678664 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/dunhan/dbt_project/target/semantic_manifest.json
+[0m07:14:45.687548 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/dunhan/dbt_project/target/run_results.json
+[0m07:14:45.688216 [info ] [MainThread]: 
+[0m07:14:45.688959 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m07:14:45.689579 [info ] [MainThread]: 
+[0m07:14:45.690309 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m07:14:45.692046 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 11.677181, "process_in_blocks": "0", "process_kernel_time": 0.469443, "process_mem_max_rss": "357796", "process_out_blocks": "2936", "process_user_time": 6.944763}
+[0m07:14:45.693105 [debug] [MainThread]: Command `dbt run` succeeded at 07:14:45.692825 after 11.68 seconds
+[0m07:14:45.693790 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78d0a1a894e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78d0a195e7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78d080f35540>]}
+[0m07:14:45.694639 [debug] [MainThread]: Flushing usage events
+[0m07:14:47.219712 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:18:57.085151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb39dd55a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb38d74790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb38d74730>]}
+
+
+============================== 07:18:57.088777 | eeb0cc20-318e-4db6-b9f8-6372b81a1c40 ==============================
+[0m07:18:57.088777 [info ] [MainThread]: Running with dbt=1.10.11
+[0m07:18:57.089765 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'log_path': '/home/dunhan/dbt_project/logs', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'use_colors': 'True', 'target_path': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'log_cache_events': 'False', 'partial_parse': 'True', 'invocation_command': 'dbt run --select agg_orders_and_revenue_by_day agg_orders_and_revenue_by_week agg_orders_and_revenue_by_month', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/dunhan/.dbt', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'empty': 'False', 'cache_selected_only': 'False', 'printer_width': '80', 'fail_fast': 'False', 'indirect_selection': 'eager', 'introspect': 'True'}
+[0m07:18:59.892714 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'eeb0cc20-318e-4db6-b9f8-6372b81a1c40', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb3b8f8d00>]}
+[0m07:18:59.985719 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'eeb0cc20-318e-4db6-b9f8-6372b81a1c40', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb395859f0>]}
+[0m07:18:59.986766 [info ] [MainThread]: Registered adapter: bigquery=1.10.2
+[0m07:19:00.291620 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m07:19:00.544729 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:19:00.545332 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:19:00.655143 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'eeb0cc20-318e-4db6-b9f8-6372b81a1c40', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb192065f0>]}
+[0m07:19:00.867093 [debug] [MainThread]: Wrote artifact WritableManifest to /home/dunhan/dbt_project/target/manifest.json
+[0m07:19:00.869746 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/dunhan/dbt_project/target/semantic_manifest.json
+[0m07:19:00.893932 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'eeb0cc20-318e-4db6-b9f8-6372b81a1c40', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb193f7550>]}
+[0m07:19:00.894801 [info ] [MainThread]: Found 1 seed, 20 models, 48 data tests, 3 sources, 495 macros
+[0m07:19:00.895460 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'eeb0cc20-318e-4db6-b9f8-6372b81a1c40', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb3ab925f0>]}
+[0m07:19:00.899164 [info ] [MainThread]: 
+[0m07:19:00.900014 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m07:19:00.900580 [info ] [MainThread]: 
+[0m07:19:00.901649 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m07:19:00.909706 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_symmetric-fin-469415-q9'
+[0m07:19:00.911137 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m07:19:01.780777 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9, now list_symmetric-fin-469415-q9_glamira_data_2025_staging)
+[0m07:19:01.781595 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:19:02.583210 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_staging, now list_symmetric-fin-469415-q9_glamira_data_2025_core)
+[0m07:19:02.584794 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:19:03.336930 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_core, now list_symmetric-fin-469415-q9_glamira_data_2025_mart)
+[0m07:19:03.339884 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:19:04.114255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'eeb0cc20-318e-4db6-b9f8-6372b81a1c40', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb3b8ddba0>]}
+[0m07:19:04.115562 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m07:19:04.121582 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_orders_and_revenue_by_day
+[0m07:19:04.122525 [info ] [Thread-1 (]: 1 of 3 START sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_day  [RUN]
+[0m07:19:04.123377 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_mart, now model.dbt_project.agg_orders_and_revenue_by_day)
+[0m07:19:04.124292 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_orders_and_revenue_by_day
+[0m07:19:04.146801 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_orders_and_revenue_by_day"
+[0m07:19:04.149203 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_orders_and_revenue_by_day
+[0m07:19:04.173855 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m07:19:05.019659 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_orders_and_revenue_by_day"
+[0m07:19:05.020742 [debug] [Thread-1 (]: On model.dbt_project.agg_orders_and_revenue_by_day: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_orders_and_revenue_by_day"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_orders_and_revenue_by_day`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    d.full_date
+    ,COUNT(DISTINCT f.order_id) AS orders
+    ,SUM(f.line_total) AS revenue
+FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_date` d USING (date_id)
+GROUP BY d.full_date
+ORDER BY d.full_date
+    );
+  
+[0m07:19:05.786617 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:066e49c6-b9df-4f94-862d-503630ccb964&page=queryresults
+[0m07:19:09.365887 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'eeb0cc20-318e-4db6-b9f8-6372b81a1c40', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb1c8aa710>]}
+[0m07:19:09.367414 [info ] [Thread-1 (]: 1 of 3 OK created sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_day  [[32mCREATE TABLE (65.0 rows, 821.4 KiB processed)[0m in 5.24s]
+[0m07:19:09.368646 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_orders_and_revenue_by_day
+[0m07:19:09.369400 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_orders_and_revenue_by_month
+[0m07:19:09.370481 [info ] [Thread-1 (]: 2 of 3 START sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_month  [RUN]
+[0m07:19:09.371563 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.agg_orders_and_revenue_by_day, now model.dbt_project.agg_orders_and_revenue_by_month)
+[0m07:19:09.372262 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_orders_and_revenue_by_month
+[0m07:19:09.379601 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_orders_and_revenue_by_month"
+[0m07:19:09.380489 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_orders_and_revenue_by_month
+[0m07:19:09.385227 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m07:19:10.135974 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_orders_and_revenue_by_month"
+[0m07:19:10.137273 [debug] [Thread-1 (]: On model.dbt_project.agg_orders_and_revenue_by_month: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_orders_and_revenue_by_month"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_orders_and_revenue_by_month`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    d.year_month
+    ,COUNT(DISTINCT f.order_id) AS orders
+    ,ROUND(SUM(f.line_total), 2) AS revenue
+FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_date` d USING (date_id)
+GROUP BY d.year_month
+ORDER BY d.year_month
+    );
+  
+[0m07:19:10.803365 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:8790bfbf-b44e-4f3f-a8e1-9f69b1299e30&page=queryresults
+[0m07:19:13.664629 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'eeb0cc20-318e-4db6-b9f8-6372b81a1c40', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb12f0aef0>]}
+[0m07:19:13.666641 [info ] [Thread-1 (]: 2 of 3 OK created sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_month  [[32mCREATE TABLE (3.0 rows, 821.5 KiB processed)[0m in 4.29s]
+[0m07:19:13.668412 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_orders_and_revenue_by_month
+[0m07:19:13.669566 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_orders_and_revenue_by_week
+[0m07:19:13.670974 [info ] [Thread-1 (]: 3 of 3 START sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_week  [RUN]
+[0m07:19:13.672379 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_project.agg_orders_and_revenue_by_month, now model.dbt_project.agg_orders_and_revenue_by_week)
+[0m07:19:13.673542 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_orders_and_revenue_by_week
+[0m07:19:13.682303 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_orders_and_revenue_by_week"
+[0m07:19:13.683905 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_orders_and_revenue_by_week
+[0m07:19:13.690818 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m07:19:14.426922 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_orders_and_revenue_by_week"
+[0m07:19:14.428081 [debug] [Thread-1 (]: On model.dbt_project.agg_orders_and_revenue_by_week: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_orders_and_revenue_by_week"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_orders_and_revenue_by_week`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    d.week_of_year
+    ,COUNT(DISTINCT f.order_id) AS orders
+    ,ROUND(SUM(f.line_total), 2) AS revenue
+FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_date` d USING (date_id)
+GROUP BY d.week_of_year
+ORDER BY d.week_of_year
+    );
+  
+[0m07:19:15.042286 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:a31afb2a-4be8-4c55-bc97-4ad7a30e5178&page=queryresults
+[0m07:19:17.835093 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'eeb0cc20-318e-4db6-b9f8-6372b81a1c40', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb1c8aa710>]}
+[0m07:19:17.836335 [info ] [Thread-1 (]: 3 of 3 OK created sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_week  [[32mCREATE TABLE (10.0 rows, 821.4 KiB processed)[0m in 4.16s]
+[0m07:19:17.837656 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_orders_and_revenue_by_week
+[0m07:19:17.839416 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m07:19:17.842063 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m07:19:17.843039 [debug] [MainThread]: Connection 'model.dbt_project.agg_orders_and_revenue_by_week' was properly closed.
+[0m07:19:17.844409 [info ] [MainThread]: 
+[0m07:19:17.845532 [info ] [MainThread]: Finished running 3 table models in 0 hours 0 minutes and 16.94 seconds (16.94s).
+[0m07:19:17.848563 [debug] [MainThread]: Command end result
+[0m07:19:17.934950 [debug] [MainThread]: Wrote artifact WritableManifest to /home/dunhan/dbt_project/target/manifest.json
+[0m07:19:17.937391 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/dunhan/dbt_project/target/semantic_manifest.json
+[0m07:19:17.946251 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/dunhan/dbt_project/target/run_results.json
+[0m07:19:17.946872 [info ] [MainThread]: 
+[0m07:19:17.947786 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m07:19:17.948502 [info ] [MainThread]: 
+[0m07:19:17.949312 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[0m07:19:17.950913 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 20.950954, "process_in_blocks": "0", "process_kernel_time": 0.449806, "process_mem_max_rss": "357572", "process_out_blocks": "3000", "process_user_time": 6.995431}
+[0m07:19:17.952281 [debug] [MainThread]: Command `dbt run` succeeded at 07:19:17.952056 after 20.95 seconds
+[0m07:19:17.952946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb39dd55a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb395859f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb12f0b9a0>]}
+[0m07:19:17.954132 [debug] [MainThread]: Flushing usage events
+[0m07:19:19.256944 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:22:17.937158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716fe63ad570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716fe53487c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716fe5348760>]}
+
+
+============================== 07:22:17.941214 | 8b3a4ef3-b0ec-4b9c-8eef-b154f3971203 ==============================
+[0m07:22:17.941214 [info ] [MainThread]: Running with dbt=1.10.11
+[0m07:22:17.942252 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'fail_fast': 'False', 'invocation_command': 'dbt run --select agg_orders_and_revenue_by_day_of_week', 'indirect_selection': 'eager', 'empty': 'False', 'warn_error': 'None', 'profiles_dir': '/home/dunhan/.dbt', 'use_colors': 'True', 'quiet': 'False', 'debug': 'False', 'log_path': '/home/dunhan/dbt_project/logs', 'version_check': 'True', 'target_path': 'None', 'use_experimental_parser': 'False', 'printer_width': '80', 'log_format': 'default', 'write_json': 'True', 'static_parser': 'True', 'cache_selected_only': 'False', 'no_print': 'None', 'partial_parse': 'True'}
+[0m07:22:20.743198 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8b3a4ef3-b0ec-4b9c-8eef-b154f3971203', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716fc5f97f70>]}
+[0m07:22:20.837759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8b3a4ef3-b0ec-4b9c-8eef-b154f3971203', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716fe5311e10>]}
+[0m07:22:20.838841 [info ] [MainThread]: Registered adapter: bigquery=1.10.2
+[0m07:22:21.152005 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m07:22:21.436012 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:22:21.436691 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:22:21.546004 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8b3a4ef3-b0ec-4b9c-8eef-b154f3971203', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716fc5710130>]}
+[0m07:22:21.761883 [debug] [MainThread]: Wrote artifact WritableManifest to /home/dunhan/dbt_project/target/manifest.json
+[0m07:22:21.765421 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/dunhan/dbt_project/target/semantic_manifest.json
+[0m07:22:21.786245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8b3a4ef3-b0ec-4b9c-8eef-b154f3971203', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716fc5700a60>]}
+[0m07:22:21.787462 [info ] [MainThread]: Found 1 seed, 21 models, 48 data tests, 3 sources, 495 macros
+[0m07:22:21.788427 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8b3a4ef3-b0ec-4b9c-8eef-b154f3971203', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716fc5703340>]}
+[0m07:22:21.791338 [info ] [MainThread]: 
+[0m07:22:21.792087 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m07:22:21.792788 [info ] [MainThread]: 
+[0m07:22:21.794026 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m07:22:21.795660 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_symmetric-fin-469415-q9'
+[0m07:22:21.796487 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m07:22:22.631696 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9, now list_symmetric-fin-469415-q9_glamira_data_2025_mart)
+[0m07:22:22.632664 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:22:23.386595 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_mart, now list_symmetric-fin-469415-q9_glamira_data_2025_staging)
+[0m07:22:23.389877 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:22:24.171268 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_staging, now list_symmetric-fin-469415-q9_glamira_data_2025_core)
+[0m07:22:24.173158 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:22:24.911724 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8b3a4ef3-b0ec-4b9c-8eef-b154f3971203', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716fc5f860e0>]}
+[0m07:22:24.912686 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m07:22:24.918511 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_orders_and_revenue_by_day_of_week
+[0m07:22:24.919440 [info ] [Thread-1 (]: 1 of 1 START sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_day_of_week  [RUN]
+[0m07:22:24.920352 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_core, now model.dbt_project.agg_orders_and_revenue_by_day_of_week)
+[0m07:22:24.921270 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_orders_and_revenue_by_day_of_week
+[0m07:22:24.938882 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_orders_and_revenue_by_day_of_week"
+[0m07:22:24.941434 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_orders_and_revenue_by_day_of_week
+[0m07:22:25.006031 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_orders_and_revenue_by_day_of_week"
+[0m07:22:25.007302 [debug] [Thread-1 (]: On model.dbt_project.agg_orders_and_revenue_by_day_of_week: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_orders_and_revenue_by_day_of_week"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_orders_and_revenue_by_day_of_week`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    d.day_of_week
+    ,COUNT(DISTINCT f.order_id) AS num_orders
+    ,ROUND(SUM(f.line_total), 2) AS revenue
+FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_date` d USING (date_id)
+GROUP BY d.day_of_week
+ORDER BY d.day_of_week
+    );
+  
+[0m07:22:25.008186 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m07:22:26.178193 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:4f87ab15-a920-4cab-946a-30dcff29c530&page=queryresults
+[0m07:22:29.139982 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8b3a4ef3-b0ec-4b9c-8eef-b154f3971203', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716fc8cd67d0>]}
+[0m07:22:29.141123 [info ] [Thread-1 (]: 1 of 1 OK created sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_day_of_week  [[32mCREATE TABLE (7.0 rows, 821.5 KiB processed)[0m in 4.22s]
+[0m07:22:29.142291 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_orders_and_revenue_by_day_of_week
+[0m07:22:29.143918 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m07:22:29.146290 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m07:22:29.146932 [debug] [MainThread]: Connection 'model.dbt_project.agg_orders_and_revenue_by_day_of_week' was properly closed.
+[0m07:22:29.147852 [info ] [MainThread]: 
+[0m07:22:29.149044 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 7.35 seconds (7.35s).
+[0m07:22:29.151022 [debug] [MainThread]: Command end result
+[0m07:22:29.241015 [debug] [MainThread]: Wrote artifact WritableManifest to /home/dunhan/dbt_project/target/manifest.json
+[0m07:22:29.243380 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/dunhan/dbt_project/target/semantic_manifest.json
+[0m07:22:29.253102 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/dunhan/dbt_project/target/run_results.json
+[0m07:22:29.254139 [info ] [MainThread]: 
+[0m07:22:29.255018 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m07:22:29.255860 [info ] [MainThread]: 
+[0m07:22:29.256858 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m07:22:29.258655 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 11.40368, "process_in_blocks": "0", "process_kernel_time": 0.441824, "process_mem_max_rss": "357860", "process_out_blocks": "2952", "process_user_time": 6.589377}
+[0m07:22:29.259794 [debug] [MainThread]: Command `dbt run` succeeded at 07:22:29.259600 after 11.41 seconds
+[0m07:22:29.260843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716fe63ad570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716fc571e710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716fe7e60d60>]}
+[0m07:22:29.261858 [debug] [MainThread]: Flushing usage events
+[0m07:22:31.261694 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:24:47.912974 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e2d2ead55a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e2d2da74790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e2d2da74730>]}
+
+
+============================== 07:24:47.917210 | d0b99f4b-1e86-48c7-8a81-411899578335 ==============================
+[0m07:24:47.917210 [info ] [MainThread]: Running with dbt=1.10.11
+[0m07:24:47.918784 [debug] [MainThread]: running dbt with arguments {'log_path': '/home/dunhan/dbt_project/logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run --select agg_orders_and_revenue_by_day_of_week', 'debug': 'False', 'quiet': 'False', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'static_parser': 'True', 'printer_width': '80', 'log_format': 'default', 'target_path': 'None', 'profiles_dir': '/home/dunhan/.dbt', 'partial_parse': 'True', 'use_colors': 'True', 'version_check': 'True', 'write_json': 'True', 'empty': 'False', 'warn_error': 'None', 'log_cache_events': 'False', 'no_print': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False'}
+[0m07:24:50.644386 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd0b99f4b-1e86-48c7-8a81-411899578335', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e2d305f4d00>]}
+[0m07:24:50.738364 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd0b99f4b-1e86-48c7-8a81-411899578335', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e2d2d9c62f0>]}
+[0m07:24:50.739303 [info ] [MainThread]: Registered adapter: bigquery=1.10.2
+[0m07:24:51.054093 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m07:24:51.342593 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:24:51.343208 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:24:51.452009 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd0b99f4b-1e86-48c7-8a81-411899578335', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e2d0de13ee0>]}
+[0m07:24:51.663793 [debug] [MainThread]: Wrote artifact WritableManifest to /home/dunhan/dbt_project/target/manifest.json
+[0m07:24:51.666564 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/dunhan/dbt_project/target/semantic_manifest.json
+[0m07:24:51.688978 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd0b99f4b-1e86-48c7-8a81-411899578335', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e2d0dff85b0>]}
+[0m07:24:51.689847 [info ] [MainThread]: Found 1 seed, 21 models, 48 data tests, 3 sources, 495 macros
+[0m07:24:51.690556 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd0b99f4b-1e86-48c7-8a81-411899578335', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e2d2f862890>]}
+[0m07:24:51.693179 [info ] [MainThread]: 
+[0m07:24:51.693914 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m07:24:51.694655 [info ] [MainThread]: 
+[0m07:24:51.695712 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m07:24:51.697402 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_symmetric-fin-469415-q9'
+[0m07:24:51.698137 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m07:24:52.624524 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9, now list_symmetric-fin-469415-q9_glamira_data_2025_core)
+[0m07:24:52.625452 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:24:53.383615 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_core, now list_symmetric-fin-469415-q9_glamira_data_2025_mart)
+[0m07:24:53.386103 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:24:54.138911 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_mart, now list_symmetric-fin-469415-q9_glamira_data_2025_staging)
+[0m07:24:54.139667 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:24:54.934003 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd0b99f4b-1e86-48c7-8a81-411899578335', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e2d305d9ba0>]}
+[0m07:24:54.935396 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m07:24:54.941956 [debug] [Thread-1 (]: Began running node model.dbt_project.agg_orders_and_revenue_by_day_of_week
+[0m07:24:54.943024 [info ] [Thread-1 (]: 1 of 1 START sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_day_of_week  [RUN]
+[0m07:24:54.943852 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_symmetric-fin-469415-q9_glamira_data_2025_staging, now model.dbt_project.agg_orders_and_revenue_by_day_of_week)
+[0m07:24:54.944872 [debug] [Thread-1 (]: Began compiling node model.dbt_project.agg_orders_and_revenue_by_day_of_week
+[0m07:24:54.969923 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.agg_orders_and_revenue_by_day_of_week"
+[0m07:24:54.971711 [debug] [Thread-1 (]: Began executing node model.dbt_project.agg_orders_and_revenue_by_day_of_week
+[0m07:24:54.995980 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m07:24:55.795812 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.agg_orders_and_revenue_by_day_of_week"
+[0m07:24:55.811602 [debug] [Thread-1 (]: On model.dbt_project.agg_orders_and_revenue_by_day_of_week: /* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_project", "target_name": "dev", "node_id": "model.dbt_project.agg_orders_and_revenue_by_day_of_week"} */
+
+  
+    
+
+    create or replace table `symmetric-fin-469415-q9`.`glamira_data_2025_mart`.`agg_orders_and_revenue_by_day_of_week`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    d.day_of_week
+    ,COUNT(DISTINCT f.order_id) AS num_orders
+    ,ROUND(SUM(f.line_total), 2) AS revenue
+FROM `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`fact_sales` f
+JOIN `symmetric-fin-469415-q9`.`glamira_data_2025_core`.`dim_date` d USING (date_id)
+GROUP BY d.day_of_week
+ORDER BY CASE d.day_of_week
+    WHEN 'Monday'    THEN 1
+    WHEN 'Tuesday'   THEN 2
+    WHEN 'Wednesday' THEN 3
+    WHEN 'Thursday'  THEN 4
+    WHEN 'Friday'    THEN 5
+    WHEN 'Saturday'  THEN 6
+    WHEN 'Sunday'    THEN 7
+  END
+    );
+  
+[0m07:24:56.450057 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=symmetric-fin-469415-q9&j=bq:US:fd37351d-60e9-43a1-b758-aab09500e9cf&page=queryresults
+[0m07:24:59.123145 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd0b99f4b-1e86-48c7-8a81-411899578335', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e2d0de10370>]}
+[0m07:24:59.124257 [info ] [Thread-1 (]: 1 of 1 OK created sql table model glamira_data_2025_mart.agg_orders_and_revenue_by_day_of_week  [[32mCREATE TABLE (7.0 rows, 821.5 KiB processed)[0m in 4.18s]
+[0m07:24:59.125563 [debug] [Thread-1 (]: Finished running node model.dbt_project.agg_orders_and_revenue_by_day_of_week
+[0m07:24:59.127350 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m07:24:59.129515 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m07:24:59.130127 [debug] [MainThread]: Connection 'model.dbt_project.agg_orders_and_revenue_by_day_of_week' was properly closed.
+[0m07:24:59.130990 [info ] [MainThread]: 
+[0m07:24:59.131959 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 7.44 seconds (7.44s).
+[0m07:24:59.133399 [debug] [MainThread]: Command end result
+[0m07:24:59.215883 [debug] [MainThread]: Wrote artifact WritableManifest to /home/dunhan/dbt_project/target/manifest.json
+[0m07:24:59.219258 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/dunhan/dbt_project/target/semantic_manifest.json
+[0m07:24:59.228382 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/dunhan/dbt_project/target/run_results.json
+[0m07:24:59.229011 [info ] [MainThread]: 
+[0m07:24:59.229781 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m07:24:59.230500 [info ] [MainThread]: 
+[0m07:24:59.231209 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m07:24:59.232576 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 11.402663, "process_in_blocks": "0", "process_kernel_time": 0.473162, "process_mem_max_rss": "357940", "process_out_blocks": "2952", "process_user_time": 6.534427}
+[0m07:24:59.233361 [debug] [MainThread]: Command `dbt run` succeeded at 07:24:59.233167 after 11.40 seconds
+[0m07:24:59.233948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e2d2ead55a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e2d0dea9a80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e2d305f4d00>]}
+[0m07:24:59.234626 [debug] [MainThread]: Flushing usage events
+[0m07:25:01.286543 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:19:23.479634 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7433e66a9540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7433e564c6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7433e564c670>]}
+
+
+============================== 21:19:23.485341 | 16ab660b-af79-43de-86e0-22124ff00ae5 ==============================
+[0m21:19:23.485341 [info ] [MainThread]: Running with dbt=1.10.11
+[0m21:19:23.486626 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'static_parser': 'True', 'fail_fast': 'False', 'log_cache_events': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'version_check': 'True', 'write_json': 'True', 'indirect_selection': 'eager', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/dunhan/.dbt', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt ', 'log_path': '/home/dunhan/dbt_project/logs', 'log_format': 'default', 'cache_selected_only': 'False', 'no_print': 'None', 'printer_width': '80', 'use_colors': 'True', 'introspect': 'True'}
+[0m21:19:23.747835 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '16ab660b-af79-43de-86e0-22124ff00ae5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7433e53c18d0>]}
+[0m21:19:23.769611 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m21:19:23.772824 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m21:19:23.777392 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.42816794, "process_in_blocks": "384", "process_kernel_time": 0.176641, "process_mem_max_rss": "96324", "process_out_blocks": "8", "process_user_time": 2.851927}
+[0m21:19:23.778517 [debug] [MainThread]: Command `cli deps` succeeded at 21:19:23.778341 after 0.43 seconds
+[0m21:19:23.779140 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7433e66a9540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7433e53c18d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7433e53c0df0>]}
+[0m21:19:23.779752 [debug] [MainThread]: Flushing usage events
+[0m21:19:25.531000 [debug] [MainThread]: An error was encountered while trying to flush usage events

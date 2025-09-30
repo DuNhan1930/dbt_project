@@ -4,18 +4,8 @@ models:
   - name: agg_revenue_by_month
     columns:
       - name: year_month
-        tests: [not_null]
-
-      - name: revenue
-        tests: []
-
-  - name: agg_revenue_by_regiondbt
-    columns:
-      - name: country_long_name
-        tests: [not_null]
-
-      - name: region_name
-        tests: []
+        tests: 
+          - not_null
 
       - name: revenue
         tests: []
@@ -23,10 +13,12 @@ models:
   - name: agg_orders_by_day_region
     columns:
       - name: full_date
-        tests: [not_null]
+        tests: 
+          - not_null
 
       - name: country_long_name
-        tests: [not_null]
+        tests: 
+          - not_null
 
       - name: orders
         tests: []
@@ -34,7 +26,8 @@ models:
   - name: agg_orders_by_region
     columns:
       - name: country_long_name
-        tests: [not_null]
+        tests: 
+          - not_null
 
       - name: orders
         tests: []
@@ -42,7 +35,8 @@ models:
   - name: agg_top_product_overall
     columns:
       - name: product_id
-        tests: [not_null]
+        tests: 
+          - not_null
 
       - name: total_qty
         tests: []
@@ -50,10 +44,12 @@ models:
   - name: agg_top_product_by_month
     columns:
       - name: year_month
-        tests: [not_null]
+        tests: 
+          - not_null
 
       - name: product_id
-        tests: [not_null]
+        tests: 
+          - not_null
 
       - name: total_qty
         tests: []
@@ -61,10 +57,12 @@ models:
   - name: agg_top_product_by_region
     columns:
       - name: country_long_name
-        tests: [not_null]
+        tests: 
+          - not_null
 
       - name: product_id
-        tests: [not_null]
+        tests: 
+          - not_null
 
       - name: total_qty
         tests: []
@@ -72,7 +70,8 @@ models:
   - name: agg_orders_and_revenue_by_month
     columns:
       - name: year_month
-        tests: [not_null]
+        tests: 
+          - not_null
 
       - name: orders
         tests: []
