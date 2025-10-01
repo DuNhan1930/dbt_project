@@ -34,13 +34,32 @@ WITH src AS (
 		END AS currency_code
 		
 		,CASE
-		WHEN src.price LIKE '%,%' AND src.price LIKE '%.%' 
-			THEN SAFE_CAST(REPLACE(REPLACE(src.price, '.', ''), ',', '.') AS FLOAT64)
-		WHEN src.price LIKE '%,%' 
+		-- US/UK thousands with comma + dot decimal: 1,000.50
+		WHEN src.price LIKE '%,%' AND src.price LIKE '%.%'
+			THEN SAFE_CAST(REPLACE(src.price, ',', '') AS FLOAT64)
+
+		-- EU both separators: 1.077,00
+		WHEN src.price LIKE '%.%' AND src.price LIKE '%,%'
+			THEN SAFE_CAST(
+				REPLACE(REPLACE(src.price, '.', ''), ',', '.') AS FLOAT64)
+
+		-- EU only comma: 54,00
+		WHEN src.price LIKE '%,%'
 			THEN SAFE_CAST(REPLACE(src.price, ',', '.') AS FLOAT64)
+
+		-- Swiss apostrophe + dot decimal: 1'018.00
+		WHEN src.price LIKE "%'%" AND src.price LIKE '%.%'
+			THEN SAFE_CAST(REPLACE(src.price, "'", '') AS FLOAT64)
+
+		-- Arabic decimal separator: 61٫00 
+		WHEN src.price LIKE '%٫%'
+			THEN SAFE_CAST(REPLACE(src.price, '٫', '.') AS FLOAT64)
+
+		-- US / plain numeric: 560.00, 5000
 		ELSE
 			SAFE_CAST(src.price AS FLOAT64)
 		END AS price
+
 	FROM src
 	LEFT JOIN {{ ref('stag_location') }} l
 		ON src.ip_address = l.ip_address

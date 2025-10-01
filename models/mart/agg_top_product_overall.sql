@@ -1,5 +1,3 @@
-{{ config(materialized='table') }}
-
 WITH ranked AS (
     SELECT
         p.product_id
@@ -15,4 +13,5 @@ SELECT
     ,product_name
     ,total_qty
 FROM ranked
-WHERE rnk = 1
+WHERE rnk <= 5
+ORDER BY rnk

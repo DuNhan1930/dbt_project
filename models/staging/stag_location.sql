@@ -1,5 +1,3 @@
-{{ config(materialized='table') }}
-
 WITH src AS (
     SELECT *
     FROM {{ source("glamira_data", "location") }}

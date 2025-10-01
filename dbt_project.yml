@@ -22,7 +22,7 @@ models:
   dbt_project:
     staging:
       +schema: staging
-      +materialized: table
+      +materialized: view
 
     core:
       +schema: core

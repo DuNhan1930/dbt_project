@@ -149,8 +149,13 @@ models:
         tests: []
 
       - name: gender
-        description: "Target gender (e.g., male, female, unisex)."
-        tests: []
+        description: "Target gender (e.g., women, men, null)."
+        tests:
+          - accepted_values:
+              values:
+                - women
+                - men
+                - null
 
       - name: max_price_format
         description: "Maximum price formatted string."
