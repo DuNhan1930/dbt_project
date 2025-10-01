@@ -1,1 +1,0 @@
-{{ dbt_utils.test_expression_is_true(column_name="currency_code", expression="currency_code IS NULL OR REGEXP_CONTAINS(currency_code, r'^[A-Z]\{3\}$')", model=get_where_subquery(ref('fact_sales'))) }}

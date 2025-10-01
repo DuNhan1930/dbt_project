@@ -1,1 +1,0 @@
-{{ test_relationships(column_name="date_id", field="date_id", model=get_where_subquery(ref('fact_sales')), to=ref('dim_date')) }}

@@ -1,1 +1,0 @@
-{{ test_not_null(column_name="country_long_name", model=get_where_subquery(ref('agg_orders_by_region'))) }}

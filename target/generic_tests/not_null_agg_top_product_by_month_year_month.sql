@@ -1,1 +1,0 @@
-{{ test_not_null(column_name="year_month", model=get_where_subquery(ref('agg_top_product_by_month'))) }}

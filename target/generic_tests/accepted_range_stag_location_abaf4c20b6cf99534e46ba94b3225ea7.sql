@@ -1,1 +1,0 @@
-{{ dbt_utils.test_accepted_range(column_name="latitude", inclusive=true, max_value=180, min_value=-180, model=get_where_subquery(ref('stag_location'))) }}
