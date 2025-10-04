@@ -1,5 +1,3 @@
-{{ config(materialized='table') }}
-
 WITH ranked AS (
     SELECT
         d.year_month
@@ -18,5 +16,5 @@ SELECT
     ,product_name
     ,total_qty
 FROM ranked
-WHERE rnk = 1
+WHERE rnk <= 5
 ORDER BY year_month

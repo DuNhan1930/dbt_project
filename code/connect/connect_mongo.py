@@ -1,9 +1,8 @@
+import os
 from pymongo import MongoClient
 
-client = MongoClient(
-    "mongodb://duadmin:strongpassword123@34.87.143.250:27017/?authSource=admin&tls=true",
-    tlsCAFile="/home/dunhan/Downloads/mongodb-cert.crt"
-)
+mongo_uri = os.environ.get("MONGO_URI")
+client = MongoClient(mongo_uri)
 
 db = client["glamira_db"]
 

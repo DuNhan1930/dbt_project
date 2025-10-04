@@ -43,3 +43,8 @@ seeds:
         currency_name: string
         exchange_rate: float64
         country_code: string
+    dim_lat_lon_country:
+      +column_types:
+        country_long_name: string
+        latitude: float64
+        longitude: float64
